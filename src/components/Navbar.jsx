@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className=''>
                 <button className='flex h-[43px] w-[127px] justify-center items-center mb-0 gap-2 rounded-full bgtransitiongreen'>
                     <p className=' mb-0'>Donate</p>
-                    <BiDonateHeart/>
+                    <BiDonateHeart className=' mb-1'/>
                 </button>
             </div>
             

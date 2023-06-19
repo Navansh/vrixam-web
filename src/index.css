@@ -20,3 +20,6 @@
     font-family: NoeStandard;
     src: url(../src/assets/fonts/NoeStandard-Bold.otf);
 }
+.cssprogress { 
+    padding: 100px 120px 64px;
+}
