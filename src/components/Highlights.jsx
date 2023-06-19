@@ -15,9 +15,9 @@ const Highlights = () => {
                         </p>
                         <ul className='flex flex-wrap gap-x-8 '>
                             <li style={{ listStyleType: 'disc'}} className=' font-PlusJakartaSans text-[15px] leading-6'>When a girl child takes birth</li>
-                            <li style={{ listStyleType: 'disc'}}>On birthday</li>
-                            <li style={{ listStyleType: 'disc'}}>Marriage Anniversaries</li>
-                            <li style={{ listStyleType: 'disc'}}>Tribute to Loved Ones in Heaven</li>
+                            <li style={{ listStyleType: 'disc'}} className=' font-PlusJakartaSans text-[15px] leading-6'>On birthday</li>
+                            <li style={{ listStyleType: 'disc'}} className=' font-PlusJakartaSans text-[15px] leading-6'>Marriage Anniversaries</li>
+                            <li style={{ listStyleType: 'disc'}} className=' font-PlusJakartaSans text-[15px] leading-6'>Tribute to Loved Ones in Heaven</li>
                         </ul>
                     </div>
                     
@@ -30,9 +30,9 @@ const Highlights = () => {
                 {
                     highlights_data.map((item, index) => {
                         return (
-                            <div className='flex'>
-                                <div className='h-[169px]'>
-                                    <img src={item.url} alt="" className='image-highlights rounded-md'/>
+                            <div className='flex '>
+                                <div className="w-[235px]" >
+                                    <img src={item.url} alt="" className=' object-cover rounded-md'/>
                                 </div>
                                 <div className=' flex flex-col'>
                                     <h2 className=' font-AnekMalayalam text-[28px] mb-0 leading-10 uppercase text-[#006C2C]'>{item.title}</h2>
