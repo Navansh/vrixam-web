@@ -1,5 +1,6 @@
 import { Carousel } from "react-bootstrap";
 import carasol_data from "../data/Carasol-data";
+import Navbar from "./Navbar";
 function CarouselFade() {
   return (
     <Carousel fade>
@@ -12,13 +13,14 @@ function CarouselFade() {
               alt='First slide'
             />
             <Carousel.Caption className='captions-all'>
-              <h3>{item.title}</h3>
-              <p>{item.subtitle}</p>
-              <button className='support-btn'>Support Now</button>
+              <h3 className=" font-NoeDisplay">{item.title}</h3>
+              <p className=" font-PlusJakartaSans">{item.subtitle}</p>
+              <button className='support-btn font-AnekMalayalam'>Support Now</button>
             </Carousel.Caption>
           </Carousel.Item>
         );
       })}
+     
     </Carousel>
   );
 }

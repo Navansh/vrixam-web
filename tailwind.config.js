@@ -10,6 +10,7 @@ module.exports = {
         NoeDisplay : ['NoeDisplay', 'sans-serif'],
         YatraOne : ['Yatra One', 'cursive'],
         AnekMalayalam : ['Anek Malayalam', 'sans-serif'],
+        PlusJakartaSans : ['Plus Jakarta Sans', 'sans-serif'],
       },
     },
   },
