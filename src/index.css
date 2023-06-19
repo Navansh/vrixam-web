@@ -23,3 +23,16 @@
 .cssprogress { 
     padding: 100px 120px 64px;
 }
+.csshighlights {
+    padding: 60px 120px 80px;
+}
+
+.highlightscard {
+    padding: 36px 38px;
+}
+
+.image-highlights{
+    object-fit : cover;
+    height: 100%;
+    width: 100%;
+}
