@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+
+
 .bgtransitiongreen{
     background: linear-gradient(93.01deg, #006C2C 0%, #00933C 100%);
+}
+
+@font-face {
+    font-family: NoeDisplay;
+    src: url(../src/assets/fonts/NoeDisplay-Semibold.otf);
+}
+@font-face {
+    font-family: NoeStandard;
+    src: url(../src/assets/fonts/NoeStandard-Bold.otf);
 }

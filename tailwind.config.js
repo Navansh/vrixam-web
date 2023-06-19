@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily : {
+        NoeStandard : ['NoeStandard', 'sans-serif'],
+        NoeDisplay : ['NoeDisplay', 'sans-serif'],
+        YatraOne : ['Yatra One', 'cursive'],
+        AnekMalayalam : ['Anek Malayalam', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
