@@ -54,9 +54,7 @@ nav {
 .carousel-indicators .active {
   transition: all 1s ease-in !important;
 }
-.hero-full {
-  height: 575px;
-}
+
 .heading {
   font-size: 30px;
   line-height: 29px;
