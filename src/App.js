@@ -8,6 +8,7 @@ import OurMotto from "./components/OurMotto";
 import Aims from "./components/Aims";
 
 import Utilize from "./components/Utilize";
+import Donation from "./components/Donation";
 
 import Gallery from "./components/Gallery";
 
@@ -22,6 +23,7 @@ function App() {
       <Aims></Aims>
 
       <Utilize></Utilize>
+      <Donation></Donation>
 
       <Gallery />
     </div>
