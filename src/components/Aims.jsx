@@ -1,4 +1,5 @@
 import React from 'react'
+import aims_data from '../data/Aims-data'
 
 const Aims = () => {
   return (
@@ -9,8 +10,18 @@ const Aims = () => {
             <p className=' font-PlusJakartaSans text-[15px] leading-[26px]'>Dedicated to fostering positive change, Vrixam stands for equality, empowerment, and compassion, as we tirelessly work towards building a brighter future for all.</p>
           </div>
 
-          <div className='flex flex-wrap sidesection gap-12 max-w-[779px]'>
-            
+          <div className='flex flex-wrap sidesection gap-7'>
+            {
+              aims_data.map((item, index) => {
+                return (
+                  <div className='flex flex-col gap-2 max-w-[231px] mb-2'>
+                    <img src={item.url} alt='' className=' h-[42px] w-[42px]'/>
+                    <h2 className=' font-NoeStandard text-[22px] mb-0 leading-9 uppercase'>{item.title}</h2>
+                    <p className=' font-PlusJakartaSans text-[15px] mb-0 leading-[23px]'>{item.subtitle}</p>
+                  </div>
+                )
+              })
+            }
           </div>
       </div>
     </div>

@@ -6,6 +6,7 @@ import Progress from "./components/Progress";
 import Highlights from "./components/Highlights";
 import OurMotto from "./components/OurMotto";
 import Aims from "./components/Aims";
+import Utilize from "./components/Utilize";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
 
 
       <Aims></Aims>
+      <Utilize></Utilize>
     </div>
   );
 }

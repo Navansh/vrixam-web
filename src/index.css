@@ -39,5 +39,8 @@
     padding: 80px 108px 100px;
 }
 .sidesection {
-    padding: 0px 28px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.cssutilize { 
+    background: rgba(0, 108, 44, 0.1);
 }

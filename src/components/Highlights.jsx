@@ -56,13 +56,13 @@ const Highlights = () => {
         <div className='  outer-hl'>
           {highlights_data.map((item, index) => {
             return (
-              <div className='inner-hl'>
+              <div className='inner-hl bg-[#E6F0EA] rounded-lg'>
                 <div className='inner-hl-div'>
                   <img src={item.url} alt='' className=' ' />
                 </div>
-                <div className=' '>
-                  <h2 className=' '>{item.title}</h2>
-                  <p className=' '>{item.subtitle}</p>
+                <div className='flex flex-col mt-2 py-3 px-5 gap-1'>
+                  <h2 className=' font-AnekMalayalam text-[22px] mb-0 leading-[31px] uppercase text-[#006C2C] '>{item.title}</h2>
+                  <p className=' font-PlusJakartaSans text-[15px] mb-0 opacity-90 leading-5'>{item.subtitle}</p>
                 </div>
               </div>
             );
