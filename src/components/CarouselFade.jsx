@@ -13,8 +13,12 @@ function CarouselFade() {
                 alt='First slide'
               />
               <Carousel.Caption className='captions-all'>
-                <h3 className=' font-NoeDisplay'>{item.title}</h3>
-                <p className=' font-PlusJakartaSans'>{item.subtitle}</p>
+                <h3 className=' font-NoeDisplay' style={item.long}>
+                  {item.title}
+                </h3>
+                <p className=' font-PlusJakartaSans' style={item.short}>
+                  {item.subtitle}
+                </p>
                 <button className='support-btn font-AnekMalayalam'>
                   Support Now
                 </button>
