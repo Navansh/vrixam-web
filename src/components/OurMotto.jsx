@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGreaterThan } from "react-icons/fa";
+import {AiOutlineLeft} from "react-icons/ai";
 const OurMotto = () => {
   const moveLeft = () => {
     document.querySelector(".videos ").classList.remove("shift");
@@ -10,22 +11,24 @@ const OurMotto = () => {
   return (
     <div className='our-motto'>
       <div className='main-motto'>
-        <div className='heading'>
+        <div className='heading font-AnekMalayalam text-[#006C2C] text-[20px]'>
           Our Motto <br />
           <br />
-          🌱
+          <div className="text-[50px]">
+            🌱
+          </div>
           <div className='sub-heading'>
-            <h3>
+            <h3 className=" font-YatraOne">
               पेड़ लगा, धरा <br /> का श्रृंगार करे |
             </h3>
           </div>
         </div>
         <div className='arrows'>
           <div className='left' onClick={moveLeft}>
-            <FaGreaterThan className='sub-arrow' />
+            <AiOutlineLeft className='sub-arrow' />
           </div>
           <div className='right' onClick={moveRight}>
-            <FaGreaterThan className='sub-arrow' />
+            <AiOutlineLeft className='sub-arrow' />
           </div>
         </div>
       </div>

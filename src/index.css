@@ -21,7 +21,7 @@
     src: url(../src/assets/fonts/NoeStandard-Bold.otf);
 }
 .cssprogress { 
-    padding: 100px 120px 64px;
+    padding: 100px 108px 64px;
 }
 .csshighlights {
     padding: 60px 120px 80px;
@@ -67,4 +67,7 @@
     background-position: center center;
     background-size: cover;
     z-index: -1;
+}
+.cssbutton {
+    padding: 14px 24px 14px 28px;
 }

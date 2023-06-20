@@ -11,6 +11,8 @@ import Utilize from "./components/Utilize";
 import Donation from "./components/Donation";
 
 import Gallery from "./components/Gallery";
+import Team from "./components/Team";
+import Footer from "./components/Footer";
 import Awards from "./components/Awards";
 import Newspaper from "./components/Newspaper";
 
@@ -28,6 +30,12 @@ function App() {
       <Donation></Donation>
 
       <Gallery />
+
+
+
+
+      <Team></Team>
+      <Footer></Footer>
       <Awards />
       <Newspaper />
     </div>
