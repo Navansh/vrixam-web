@@ -56,7 +56,7 @@ const Gallery = () => {
         infinite={true}
         slidesToSlide={2}
       >
-        <div className='card why-cards'>
+        <div className=' why-cards'>
           <div className='card-img'>
             <img src='../assets/Gallery-1.png' alt='' />
           </div>
@@ -67,7 +67,7 @@ const Gallery = () => {
         </div> */}
         </div>
 
-        <div className='card why-cards'>
+        <div className='why-cards'>
           <div className='card-img'>
             <img src='../assets/Gallery-2.png' alt='' />
           </div>
@@ -77,7 +77,7 @@ const Gallery = () => {
           </p>
         </div> */}
         </div>
-        <div className='card why-cards'>
+        <div className='why-cards'>
           <div className='card-img'>
             <img src='../assets/Gallery-3.png' alt='' />
           </div>
@@ -87,7 +87,7 @@ const Gallery = () => {
           </p>
         </div> */}
         </div>
-        <div className='card why-cards'>
+        <div className='why-cards'>
           <div className='card-img'>
             <img src='../assets/Gallery-4.png' alt='' />
           </div>
@@ -98,7 +98,7 @@ const Gallery = () => {
         </div> */}
         </div>
 
-        <div className='card why-cards'>
+        <div className=' why-cards'>
           <div className='card-img'>
             <img src='../assets/Gallery-5.png' alt='' />
           </div>
@@ -109,7 +109,7 @@ const Gallery = () => {
         </div> */}
         </div>
 
-        <div className='card why-cards'>
+        <div className=' why-cards'>
           <div className='card-img'>
             <img src='../assets/Gallery-6.png' alt='' />
           </div>
@@ -120,7 +120,7 @@ const Gallery = () => {
         </div> */}
         </div>
 
-        <div className='card why-cards'>
+        <div className='why-cards'>
           <div className='card-img'>
             <img src='../assets/Gallery-7.png' alt='' />
           </div>
@@ -131,7 +131,7 @@ const Gallery = () => {
         </div> */}
         </div>
 
-        <div className='card why-cards'>
+        <div className='why-cards'>
           <div className='card-img'>
             <img src='../assets/Gallery-8.png' alt='' />
           </div>

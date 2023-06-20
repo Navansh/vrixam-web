@@ -143,3 +143,21 @@ body {
 .carousel-indicators {
   margin-bottom: 4rem !important;
 }
+.why-cards img {
+  margin: 0 auto;
+}
+.carousel-button-group {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.next {
+  transform: rotate(180deg);
+}
+.carousel-btn {
+  background-color: rgb(239, 245, 241);
+  border-radius: 50%;
+}
+.prev {
+  margin-right: 2rem;
+}
