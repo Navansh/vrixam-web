@@ -3,7 +3,7 @@ import carasol_data from "../data/Carasol-data";
 function CarouselFade() {
   return (
     <div className='hero-full'>
-      <Carousel fade interval={3000}>
+      <Carousel fade interval={10000}>
         {carasol_data.map((item) => {
           return (
             <Carousel.Item>

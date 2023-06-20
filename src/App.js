@@ -6,7 +6,10 @@ import Progress from "./components/Progress";
 import Highlights from "./components/Highlights";
 import OurMotto from "./components/OurMotto";
 import Aims from "./components/Aims";
+
 import Utilize from "./components/Utilize";
+
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -16,12 +19,11 @@ function App() {
       <OurMotto />
       <Progress></Progress>
       <Highlights></Highlights>
-
-
-
-
       <Aims></Aims>
+
       <Utilize></Utilize>
+
+      <Gallery />
     </div>
   );
 }
