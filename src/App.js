@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Progress from "./components/Progress";
 import Highlights from "./components/Highlights";
 import OurMotto from "./components/OurMotto";
+import Aims from "./components/Aims";
 
 function App() {
   return (
@@ -14,6 +15,11 @@ function App() {
       <OurMotto />
       <Progress></Progress>
       <Highlights></Highlights>
+
+
+
+
+      <Aims></Aims>
     </div>
   );
 }

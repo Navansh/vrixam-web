@@ -3,8 +3,8 @@ import {BiDonateHeart} from 'react-icons/bi'
 
 const Navbar = () => {
   return (
-    <div className=' bg-transparent'>
-        <nav className='flex justify-between max-w-[1440px] mx-auto py-0  gap-72 h-20 items-center font-AnekMalayalam  text-white'>
+    <nav className=''>
+        <div className='flex justify-between max-w-[1440px] mx-auto py-0  gap-72 h-20 items-center font-AnekMalayalam  text-white'>
             <div className=' flex gap-[72px] text-[13px] items-center'>
                 <div className=' flex items-center gap-2'>
                     <img src="https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687167490/logo_m3yaf9.png" alt="" className=' scale-75'/>
@@ -31,8 +31,8 @@ const Navbar = () => {
             </div>
             
 
-        </nav>
-    </div>
+        </div>
+    </nav>
   )
 }
 
