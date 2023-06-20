@@ -227,7 +227,6 @@ body {
 .newspaper-full {
   position: relative;
   height: 1000px;
-
 }
 .ngo-logo {
   position: absolute;
@@ -237,7 +236,7 @@ body {
     180deg,
     rgb(242, 247, 244, 0.1) 0%,
     rgb(242, 247, 244, 0.7) 20%,
-    rgb(242, 247, 244, 1) 80%
+    #ebf3ee 80%
   );
   height: 600px;
 }
