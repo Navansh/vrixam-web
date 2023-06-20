@@ -81,6 +81,7 @@ const Awards = () => {
           </div>
         </Carousel>
       </div>
+      <div className='right-white'></div>
     </div>
   );
 };

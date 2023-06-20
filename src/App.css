@@ -265,3 +265,15 @@ body {
 .img-wordings span {
   color: #308853;
 }
+.right-white {
+  position: absolute;
+  height: 100%;
+  width: 180px;
+  top: 0;
+  right: 0;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255, 0.9) 50%,
+    rgba(255, 255, 255, 0.2) 90.56%
+  );
+}
