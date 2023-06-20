@@ -15,6 +15,7 @@ import Team from "./components/Team";
 import Footer from "./components/Footer";
 import Awards from "./components/Awards";
 import Newspaper from "./components/Newspaper";
+import Seeds from "./components/Seeds";
 
 function App() {
   return (
@@ -30,14 +31,11 @@ function App() {
       <Donation></Donation>
 
       <Gallery />
-
-
-
-
-      <Team></Team>
-      <Footer></Footer>
       <Awards />
       <Newspaper />
+      <Team></Team>
+      <Seeds />
+      <Footer></Footer>
     </div>
   );
 }
