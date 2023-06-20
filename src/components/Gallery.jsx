@@ -47,6 +47,7 @@ const Gallery = () => {
   return (
     <div className='gallery-full'>
       <Carousel
+        className='carousel-gallery'
         swipeable={true}
         arrows={false}
         renderButtonGroupOutside={true}
