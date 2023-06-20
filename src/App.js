@@ -11,6 +11,7 @@ import Utilize from "./components/Utilize";
 import Donation from "./components/Donation";
 
 import Gallery from "./components/Gallery";
+import Awards from "./components/Awards";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Donation></Donation>
 
       <Gallery />
+      <Awards />
     </div>
   );
 }

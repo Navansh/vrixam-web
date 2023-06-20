@@ -161,3 +161,51 @@ body {
 .prev {
   margin-right: 2rem;
 }
+.aw-card-img {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.awards-slider {
+  transform: translateX(500px);
+}
+.all-awards {
+  position: relative;
+}
+.awards-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: linear-gradient(
+    90deg,
+    #ffffff 85%,
+    rgba(255, 255, 255, 0.8) 95.56%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  width: 47%;
+  height: 100%;
+  padding-left: 108px;
+  padding-top: 2rem;
+}
+.main-heading h3 {
+  font-weight: 700;
+  font-size: 36px;
+  max-width: 493px;
+  margin-bottom: 24px;
+}
+.sub-aw-heading {
+  max-width: 474px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25.5px;
+  letter-spacing: 2%;
+}
+.card-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.card-img {
+  padding: 1rem 1rem 1rem 0.5rem;
+}
