@@ -4,7 +4,7 @@ const Team = () => {
   return (
     <div className=' cssteam'>
         <div className='max-w-[1440px] mx-auto flex flex-col items-center'>
-            <div className='mt-[5rem]'>
+            <div className='mt-[1rem]'>
                 <img src="https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687288561/team_2_j1xaid.png" alt="" loading='lazy'/>
             </div>
             <div className=' mt-[2.75rem] max-w-[383px] rounded-full cssbutton flex gap-2 justify-center items-center bg-[#E6F0EA]'>
