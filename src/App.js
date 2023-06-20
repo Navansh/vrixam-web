@@ -12,6 +12,7 @@ import Donation from "./components/Donation";
 
 import Gallery from "./components/Gallery";
 import Awards from "./components/Awards";
+import Newspaper from "./components/Newspaper";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
 
       <Gallery />
       <Awards />
+      <Newspaper />
     </div>
   );
 }

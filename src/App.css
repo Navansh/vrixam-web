@@ -212,3 +212,39 @@ body {
   padding: 1rem 0.5rem 1rem 0.5rem;
   height: 405px;
 }
+.news-paper .heading h3 {
+  color: black;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2rem;
+}
+.news-img {
+  margin-top: 1.5rem;
+}
+.news-img img {
+  margin: 0 auto;
+}
+.newspaper-full {
+  position: relative;
+  height: 1000px;
+}
+.ngo-logo {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background: linear-gradient(
+    180deg,
+    rgb(242, 247, 244, 0.1) 0%,
+    rgb(242, 247, 244, 0.7) 20%,
+    rgb(242, 247, 244, 1) 80%
+  );
+  height: 600px;
+}
+.ngo-logo img {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
