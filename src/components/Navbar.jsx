@@ -16,11 +16,22 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <p className=' mb-0'>WHAT WE DO</p>
-                    <p className=' mb-0'>ABOUT US</p>
-                    <p className=' mb-0'>OUR VISION</p>
-                    <p className=' mb-0'>GALLERY</p>
-                    <p className=' mb-0'>OUR TEAM</p>
+                    <a href="#" className='navlinks'>
+                        <p className=' mb-0'>WHAT WE DO</p>
+                    </a>
+                    
+                    <a href="" className='navlinks'>
+                        <p className=' mb-0'>ABOUT US</p>
+                    </a>
+                    <a href="" className='navlinks'>
+                        <p className=' mb-0'>OUR VISION</p>
+                    </a>
+                    <a href="" className='navlinks'>
+                        <p className=' mb-0'>GALLERY</p>
+                    </a>
+                    <a href="#team" className='navlinks'>
+                        <p className=' mb-0'>OUR TEAM</p>
+                    </a>
 
                 </div>
 
