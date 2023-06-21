@@ -5,8 +5,8 @@ const Donation = () => {
     <div className=' cssdonation w-full'>
         <div className=' flex max-w-[1440px] mx-auto'>
             <div className='flex flex-col ml-[6.75rem] mt-[3.875rem] '>
-                <div className=' flex items-center gap-5'>
-                    <img src="https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687167490/logo_m3yaf9.png" alt="" className=' scale-150'/>
+                <div className=' flex items-center'>
+                    <img src="https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687167490/logo_m3yaf9.png" alt="" className=' h-[87px] w-[87px] mr-[19.44px]'/>
                     <div className=''>
                         <p className=' text-[35px] text-white leading-[32px] font-NoeStandard mb-0'>Vrixam</p>
                         <p className=' text-[35px] leading-[32px] text-white font-NoeStandard mb-0'>Amritam</p>

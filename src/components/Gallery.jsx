@@ -1,8 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { FiChevronLeft } from "react-icons/fi";
-import { BiChevronRight } from "react-icons/bi";
+import {AiOutlineLeft, AiOutlineRight} from "react-icons/ai";
 
 const responsive = {
   superLargeDesktop: {
@@ -36,10 +35,10 @@ const Gallery = () => {
       <div className='carousel-button-group'>
         <button className='carousel-btn prev' onClick={() => previous()}>
           {" "}
-          <FiChevronLeft />
+          <AiOutlineLeft />
         </button>
         <button className='carousel-btn next' onClick={() => next()}>
-          <FiChevronLeft className='next-btn' />
+          <AiOutlineLeft className='next-btn' />
         </button>
       </div>
     );
