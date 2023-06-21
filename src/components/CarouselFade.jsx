@@ -1,10 +1,10 @@
 import { Carousel } from "react-bootstrap";
 import carasol_data from "../data/Carasol-data";
-import {BiDonateHeart} from 'react-icons/bi'
+import { BiDonateHeart } from "react-icons/bi";
 function CarouselFade() {
   return (
     <div className='hero-full'>
-      <Carousel fade interval={10000}>
+      <Carousel fade interval={3000}>
         {carasol_data.map((item) => {
           return (
             <Carousel.Item>
@@ -22,7 +22,9 @@ function CarouselFade() {
                 </p>
                 <button className='support-btn hover:cursor-pointer items-center font-AnekMalayalam rounded-full'>
                   Support Now
-                  <span><BiDonateHeart className=" mb-1"></BiDonateHeart></span>
+                  <span>
+                    <BiDonateHeart className=' mb-1'></BiDonateHeart>
+                  </span>
                 </button>
               </Carousel.Caption>
             </Carousel.Item>
