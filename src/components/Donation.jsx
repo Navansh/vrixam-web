@@ -2,7 +2,7 @@ import React from 'react'
 
 const Donation = () => {
   return (
-    <div className=' cssdonation w-full'>
+    <div className=' cssdonation w-full' id='donate'>
         <div className=' flex max-w-[1440px] mx-auto'>
             <div className='flex flex-col ml-[6.75rem] mt-[3.875rem] '>
                 <div className=' flex items-center'>

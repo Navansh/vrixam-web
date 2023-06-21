@@ -6,7 +6,7 @@ const Navbar = () => {
     window.addEventListener("scroll", function () {
       var navbar = document.getElementById("navbar");
 
-      if (window.pageYOffset > 575) {
+      if (window.scrollY > 575) {
         navbar.style.backgroundColor = "#1A1A1A";
       } else {
         navbar.style.backgroundColor = "transparent";
@@ -76,10 +76,12 @@ const Navbar = () => {
           </div>
 
           <div className=''>
-            <button className='flex h-[43px] w-[127px] justify-center items-center mb-0 gap-2 rounded-full bgtransitiongreen'>
-              <p className=' mb-0'>Donate</p>
-              <BiDonateHeart className=' mb-1' />
-            </button>
+            <a href="#donate" className="navlinks">
+                <button className='flex h-[43px] w-[127px] justify-center items-center mb-0 gap-2 rounded-full bgtransitiongreen'>
+                    <p className=' mb-0'>Donate</p>
+                    <BiDonateHeart className=' mb-1' />
+                </button>
+            </a>   
           </div>
         </div>
       </div>
