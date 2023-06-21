@@ -252,6 +252,7 @@ body {
   transform: translateX(-50%);
 }
 .seed-full {
+  margin-top: 6rem;
   position: relative;
 }
 .img-wordings {
@@ -379,5 +380,18 @@ body {
     right: 50%;
     margin-top: 3rem;
     margin-bottom: 1rem !important;
+  }
+}
+.seed-img img {
+  width: 100vw;
+}
+
+@media screen and (max-width: 1200px) {
+  .img-wordings {
+    margin-top: 0;
+  }
+  .seed-img img {
+    display: block;
+    padding-top: 10rem;
   }
 }
