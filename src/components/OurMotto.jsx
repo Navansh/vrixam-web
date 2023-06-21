@@ -19,7 +19,7 @@ const OurMotto = () => {
           <div className='text-[36px]'>🌱</div>
           <div className='sub-heading'>
             <h3 className=' font-YatraOne'>
-              पेड़ लगा, धरा <br /> का श्रृंगार करे |
+              पेड़ लगा, धरा <br className='disp-change' /> का श्रृंगार करे |
             </h3>
           </div>
         </div>

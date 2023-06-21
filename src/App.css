@@ -397,3 +397,33 @@ body {
     padding-top: 10rem;
   }
 }
+@media screen and (max-width: 768px) {
+  .main-motto {
+    position: static;
+    text-align: center;
+    height: auto;
+  }
+  .videos {
+    display: block;
+    transform: translateX(0px);
+  }
+  .video {
+    width: 90vw;
+    margin: 2rem auto;
+  }
+
+  .main-motto .heading,
+  .main-motto .sub-heading {
+    width: 100vw;
+  }
+  .main-motto {
+    padding: 0;
+  }
+  .disp-change {
+    display: none;
+  }
+  .left,
+  .right {
+    display: none;
+  }
+}
