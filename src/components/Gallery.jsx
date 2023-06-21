@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import {AiOutlineLeft, AiOutlineRight} from "react-icons/ai";
+import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 const responsive = {
   superLargeDesktop: {
@@ -55,6 +55,7 @@ const Gallery = () => {
         renderButtonGroupOutside={true}
         customButtonGroup={<ButtonGroup />}
         draggable={false}
+        autoPlay={true}
         responsive={responsive}
         infinite={true}
         slidesToSlide={2}

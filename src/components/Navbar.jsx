@@ -12,6 +12,27 @@ const Navbar = () => {
         navbar.style.backgroundColor = "transparent";
       }
     });
+
+    const scrollLinks = document.querySelectorAll(".navlinks");
+    console.log(scrollLinks);
+    scrollLinks.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        // prevent default
+        e.preventDefault();
+
+        const id = e.target.getAttribute("href").slice(1);
+        const element = document.getElementById(id);
+        console.log(element);
+        //
+        let position = element.offsetTop - 62;
+        window.scrollTo({
+          left: 0,
+          // top: element.offsetTop,
+          top: position,
+          behavior: "smooth",
+        });
+      });
+    });
   });
 
   return (
@@ -50,7 +71,7 @@ const Navbar = () => {
               <p className=' mb-0'>GALLERY</p>
             </a>
             <a href='#team' className='navlinks'>
-              <p className=' mb-0'>OUR TEAM</p>
+              OUR TEAM
             </a>
           </div>
 
