@@ -46,6 +46,9 @@ const Gallery = () => {
   };
   return (
     <div className='gallery-full'>
+      <div className='gallery-heading'>
+        <h3>Our Gallery</h3>
+      </div>
       <Carousel
         className='carousel-gallery'
         swipeable={true}

@@ -83,7 +83,7 @@ nav {
     rgba(255, 255, 255, 0) 100%
   );
   padding-left: 108px;
-  padding-top: 5rem;
+  padding-top: 7rem;
   position: absolute;
   z-index: 3;
 }
@@ -98,6 +98,7 @@ nav {
 }
 .arrows {
   display: flex;
+  padding-top: 2rem;
 }
 .sub-arrow {
   position: relative;
@@ -111,16 +112,17 @@ nav {
 .videos {
   padding-top: 6rem;
   display: flex;
-  transform: translateX(521px);
+  transform: translateX(510px);
+  transition: all 1s ease-in-out;
 }
 .video-1 {
-  margin-right: 10rem;
+  margin-right: 2rem;
 }
 body {
   overflow-x: hidden;
 }
 .shift {
-  transform: translateX(0);
+  transform: translateX(-40px);
 }
 .inner-hl {
   display: grid;
@@ -209,7 +211,7 @@ body {
   object-position: top;
 }
 .card-img {
-  padding: 1rem 0.5rem 1rem 0.5rem;
+  padding: 1rem 0rem 1rem 1rem;
   height: 405px;
 }
 .news-paper .heading h3 {
@@ -277,4 +279,25 @@ body {
     rgb(255, 255, 255, 0.9) 50%,
     rgba(255, 255, 255, 0.2) 90.56%
   );
+}
+.gallery-full {
+  padding-left: 108px;
+}
+.gallery-heading {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.gallery-heading h3 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.video {
+  width: 840px;
+}
+.video img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }

@@ -47,6 +47,7 @@ const Awards = () => {
           responsive={responsive}
           infinite={true}
           slidesToSlide={1}
+          autoPlay={true}
         >
           <div className=' aw-card'>
             <div className='aw-card-img first'>

@@ -1,6 +1,8 @@
 import React from "react";
 import { FaGreaterThan } from "react-icons/fa";
-import {AiOutlineLeft, AiOutlineRight} from "react-icons/ai";
+
+import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
+
 const OurMotto = () => {
   const moveLeft = () => {
     document.querySelector(".videos ").classList.remove("shift");
@@ -14,11 +16,9 @@ const OurMotto = () => {
         <div className='heading font-AnekMalayalam text-[#006C2C] text-[20px]'>
           Our Motto <br />
           <br />
-          <div className="text-[50px]">
-            🌱
-          </div>
+          <div className='text-[50px]'>🌱</div>
           <div className='sub-heading'>
-            <h3 className=" font-YatraOne">
+            <h3 className=' font-YatraOne'>
               पेड़ लगा, धरा <br /> का श्रृंगार करे |
             </h3>
           </div>
@@ -34,26 +34,10 @@ const OurMotto = () => {
       </div>
       <div className='videos'>
         <div className='video video-1'>
-          <iframe
-            width='560'
-            height='315'
-            src='https://www.youtube.com/embed/RBqWwm2eEq0'
-            title='YouTube video player'
-            frameborder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            allowfullscreen
-          ></iframe>
+          <img src='../assets/video-1.png' alt='' />
         </div>
         <div className='video video-2'>
-          <iframe
-            width='560'
-            height='315'
-            src='https://www.youtube.com/embed/RBqWwm2eEq0'
-            title='YouTube video player'
-            frameborder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            allowfullscreen
-          ></iframe>
+          <img src='../assets/video-2.png' alt='' />
         </div>
       </div>
     </div>
