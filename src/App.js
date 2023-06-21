@@ -28,10 +28,10 @@ function App() {
       <Aims></Aims>
 
       <Utilize></Utilize>
-      <Donation></Donation>
 
       <Gallery />
       <Awards />
+      <Donation></Donation>
       <Newspaper />
       <Team></Team>
       <Seeds />
