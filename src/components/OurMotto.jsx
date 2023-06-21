@@ -13,10 +13,10 @@ const OurMotto = () => {
   return (
     <div className='our-motto'>
       <div className='main-motto'>
-        <div className='heading font-AnekMalayalam text-[#006C2C] text-[20px]'>
+        <div className='heading font-AnekMalayalam font-bold uppercase text-[#006C2C] text-[20px]'>
           Our Motto <br />
           <br />
-          <div className='text-[50px]'>🌱</div>
+          <div className='text-[36px]'>🌱</div>
           <div className='sub-heading'>
             <h3 className=' font-YatraOne'>
               पेड़ लगा, धरा <br /> का श्रृंगार करे |

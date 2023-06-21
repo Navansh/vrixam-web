@@ -24,7 +24,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className=' ml-[6.75rem] mr-[6.75rem] mt-[4.25rem] h-[1px] bg-white'></div>
+            <div className=' ml-[6.75rem] mr-[6.75rem] mt-[4.25rem] h-[1px] bg-white opacity-20'></div>
             <p className=' ml-[6.75rem] mb-[1.5rem] font-PlusJakartaSans mt-[1.125rem] mr-[6.75rem] text-white'>© Copyright 2023, All Rights Reserved</p>
         </div>
         

@@ -7,7 +7,7 @@ const Highlights = () => {
         In the highlights
       </p>
       <div className=" flex gap-8">
-        <div className=" flex flex-col bg-[#E6F0EA] rounded-md max-w-[584px]">
+        <div className=" flex flex-col bg-[#E6F0EA] rounded-md max-w-[596px]">
           <img
             src="https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687199050/highlights_1_wak8ro.png"
             height="343px"
@@ -20,7 +20,7 @@ const Highlights = () => {
             </h2>
             <div className="flex flex-col gap-2">
               <p className=" mb-0 opacity-90 font-PlusJakartaSans text-[15px] leading-6 text-[#2D2D2D]">
-                Spread the message over planting a sapling on the special 4
+                Spread the message over planting a sapling on the <br /> special 4
                 occasions in one’s life
               </p>
               <ul className="flex flex-wrap gap-x-8 w-[432px] ">
@@ -54,7 +54,7 @@ const Highlights = () => {
         </div>
 
         {/* next side */}
-        <div className="  outer-hl">
+        <div className="  outer-hl max-w-[596px]">
           {highlights_data.map((item, index) => {
             return (
               <div className="inner-hl bg-[#E6F0EA] rounded-lg">

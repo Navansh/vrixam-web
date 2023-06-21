@@ -4,7 +4,7 @@ import { BiDonateHeart } from "react-icons/bi";
 function CarouselFade() {
   return (
     <div className='hero-full'>
-      <Carousel fade interval={3000}>
+      <Carousel fade interval={4000}>
         {carasol_data.map((item) => {
           return (
             <Carousel.Item>

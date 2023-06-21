@@ -16,7 +16,7 @@ const Aims = () => {
                 return (
                   <div className='flex flex-col gap-[6px] max-w-[231px] mb-2'>
                     <img src={item.url} alt='' className=' h-[42px] w-[42px]'/>
-                    <h2 className=' font-NoeStandard text-[22px] mb-0 leading-9 uppercase'>{item.title}</h2>
+                    <h2 className=' font-NoeStandard text-[22px] mb-0 leading-9'>{item.title}</h2>
                     <p className=' font-PlusJakartaSans text-[15px] mb-0 leading-[23px]'>{item.subtitle}</p>
                   </div>
                 )
