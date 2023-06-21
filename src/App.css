@@ -75,12 +75,12 @@ nav {
   margin-top: 1.9rem;
 }
 .main-motto {
-  width: 521px;
+  width: 550px;
   height: 520px;
   background: linear-gradient(
     90deg,
-    #ffffff 50%,
-    rgba(255, 255, 255, 0.8) 90.56%,
+    #ffffff 60%,
+    rgba(255, 255, 255, 0.8) 92.56%,
     rgba(255, 255, 255, 0) 100%
   );
   padding-left: 108px;
@@ -123,7 +123,7 @@ body {
   overflow-x: hidden;
 }
 .shift {
-  transform: translateX(-40px);
+  transform: translateX(0px);
 }
 .inner-hl {
   display: grid;
@@ -304,6 +304,28 @@ body {
 #navbar {
   transition: all 1s ease;
 }
-.hero-full{
-  background: rgba(0, 0, 0,0.55);
+.hero-full {
+  background: rgba(0, 0, 0, 0.55);
+}
+.captions-inner {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-item {
+  height: 575px;
+}
+@media screen and (min-width: 1440px) {
+  .carousel-indicators {
+    right: 170px !important;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .carousel-indicators {
+    right: 250px !important;
+  }
+}
+.our-motto {
+  max-width: 1440px;
+  margin: 2rem auto;
 }
