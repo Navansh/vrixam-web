@@ -27,14 +27,14 @@ function CarouselFade() {
                       <BiDonateHeart className=' mb-1'></BiDonateHeart>
                     </span>
                   </button>
+                  <button className='donate-btn hover:cursor-pointer items-center font-AnekMalayalam rounded-full'>
+                    Donate<BiDonateHeart className=' mb-1'></BiDonateHeart>
+                  </button>
                 </div>
               </Carousel.Caption>
             </Carousel.Item>
           );
         })}
-        <button className='donate-btn hover:cursor-pointer items-center font-AnekMalayalam rounded-full'>
-          Donate<BiDonateHeart className=' mb-1'></BiDonateHeart>
-        </button>
       </Carousel>
     </div>
   );
