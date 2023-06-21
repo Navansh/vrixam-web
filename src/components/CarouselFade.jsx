@@ -4,7 +4,7 @@ import { BiDonateHeart } from "react-icons/bi";
 function CarouselFade() {
   return (
     <div className='hero-full'>
-      <Carousel fade interval={13000}>
+      <Carousel fade interval={1000}>
         {carasol_data.map((item) => {
           return (
             <Carousel.Item>
@@ -32,6 +32,9 @@ function CarouselFade() {
             </Carousel.Item>
           );
         })}
+        <button className='donate-btn hover:cursor-pointer items-center font-AnekMalayalam rounded-full'>
+          Donate<BiDonateHeart className=' mb-1'></BiDonateHeart>
+        </button>
       </Carousel>
     </div>
   );

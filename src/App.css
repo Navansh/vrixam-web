@@ -31,7 +31,8 @@
 .carousel-control-prev-icon {
   display: none !important;
 }
-.support-btn {
+.support-btn,
+.donate-btn {
   margin-top: 3rem;
   text-transform: capitalize;
   background-color: green;
@@ -80,7 +81,7 @@ nav {
   background: linear-gradient(
     90deg,
     #ffffff 60%,
-    rgba(255, 255, 255, 0.8) 92.56%,
+    rgba(255, 255, 255, 0.8) 88.56%,
     rgba(255, 255, 255, 0) 100%
   );
   padding-left: 108px;
@@ -315,6 +316,10 @@ body {
 .carousel-item {
   height: 575px;
 }
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
 @media screen and (min-width: 1440px) {
   .carousel-indicators {
     right: 170px !important;
@@ -328,4 +333,51 @@ body {
 .our-motto {
   max-width: 1440px;
   margin: 2rem auto;
+}
+.donate-btn {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .carousel-item {
+    height: 497px;
+  }
+  .support-btn {
+    display: none;
+  }
+  .donate-btn {
+    display: flex;
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel-item {
+    height: 550px;
+  }
+  .donate-btn {
+    z-index: 100;
+    position: absolute;
+    bottom: 50px;
+    color: white;
+
+    margin-left: 1rem;
+  }
+  .captions-all h3 {
+    font-size: 30px;
+  }
+  .captions-all p {
+    font-size: 15px;
+  }
+  .captions-all {
+    padding-left: 24px;
+  }
+  .captions-all h3,
+  .captions-all p {
+    max-width: 312px !important;
+  }
+  .carousel-indicators {
+    right: 50%;
+    margin-top: 3rem;
+    margin-bottom: 1rem !important;
+  }
 }
