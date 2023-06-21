@@ -4,8 +4,8 @@ const Newspaper = () => {
   return (
     <div className='newspaper-full'>
       <div className='news-paper'>
-        <div className='heading'>
-          <h3>In The Headlines</h3>
+        <div className='heading font-NoeStandard'>
+          <h3>In the headlines</h3>
         </div>
         <div className='news-img'>
           <img src='../assets/News.png' alt='' />

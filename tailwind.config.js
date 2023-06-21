@@ -12,6 +12,10 @@ module.exports = {
         AnekMalayalam : ['Anek Malayalam', 'sans-serif'],
         PlusJakartaSans : ['Plus Jakarta Sans', 'sans-serif'],
       },
+      fontWeight: {
+        normal: 500,
+        bold: 700,
+      },
     },
   },
   plugins: [],

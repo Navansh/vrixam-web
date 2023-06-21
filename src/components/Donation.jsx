@@ -27,7 +27,7 @@ const Donation = () => {
             <div className='flex flex-col ml-[4rem] mt-[6.375rem] max-w-[325px]'>
                 <div className='flex flex-col gap-[1.467rem]'>
                     <div>
-                        <p className=' mb-0 font-AnekMalayalam text-[20px] text-white leading-[28px] opacity-80'>MERCHANT NAME</p>
+                        <p className=' mb-0 font-AnekMalayalam  text-[20px] text-white leading-[28px] opacity-80'>MERCHANT NAME</p>
                         <p className=' mb-0 font-PlusJakartaSans text-white text-[24px] leading-[33px]'>VRIXAM AMRITAM SEVA SANSTHAN</p>
                     </div>
                     
@@ -37,7 +37,7 @@ const Donation = () => {
                     </div>
                 </div>
 
-                <div className=' mt-[3.667rem] flex flex-col gap-[1.188rem]'>
+                <div className=' mt-[3.667rem] flex flex-col gap-[1rem]'>
                     <p className=' text-white font-AnekMalayalam text-[18px] leading-[25px] opacity-80 mb-0'>We support secure transactions through</p>
                     <div className='flex items-center gap-[1rem]'>
                         <img src="https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687268676/UPI-Logo-vector_1_upr5je.png" className=' w-[69px] h-[24px]' alt="" />

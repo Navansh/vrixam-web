@@ -14,7 +14,7 @@ const Highlights = () => {
             alt=''
           />
           <div className=' flex flex-col highlightscard gap-3'>
-            <h2 className=' font-AnekMalayalam text-[28px] mb-0 leading-10 uppercase text-[#006C2C]'>
+            <h2 className=' font-AnekMalayalam font-bold text-[28px] mb-0 leading-10 uppercase text-[#006C2C]'>
               Gift the World a Tree
             </h2>
             <div className='flex flex-col gap-2'>
@@ -61,7 +61,7 @@ const Highlights = () => {
                   <img src={item.url} alt='' className=' ' />
                 </div>
                 <div className='flex flex-col mt-2 py-3 px-5 gap-1'>
-                  <h2 className=' font-AnekMalayalam text-[22px] mb-0 leading-[31px] uppercase text-[#006C2C] '>{item.title}</h2>
+                  <h2 className=' font-AnekMalayalam font-bold text-[22px] mb-0 leading-[31px] uppercase text-[#006C2C] '>{item.title}</h2>
                   <p className=' font-PlusJakartaSans text-[15px] mb-0 opacity-90 leading-5'>{item.subtitle}</p>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGreaterThan } from "react-icons/fa";
-import {AiOutlineLeft} from "react-icons/ai";
+import {AiOutlineLeft, AiOutlineRight} from "react-icons/ai";
 const OurMotto = () => {
   const moveLeft = () => {
     document.querySelector(".videos ").classList.remove("shift");
@@ -25,10 +25,10 @@ const OurMotto = () => {
         </div>
         <div className='arrows'>
           <div className='left' onClick={moveLeft}>
-            <AiOutlineLeft className='sub-arrow' />
+            <AiOutlineRight className='sub-arrow' />
           </div>
           <div className='right' onClick={moveRight}>
-            <AiOutlineLeft className='sub-arrow' />
+            <AiOutlineRight className='sub-arrow' />
           </div>
         </div>
       </div>
