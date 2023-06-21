@@ -301,3 +301,6 @@ body {
   object-fit: cover;
   border-radius: 20px;
 }
+#navbar {
+  transition: all 1s ease;
+}
