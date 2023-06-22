@@ -354,7 +354,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .carousel-item {
-    height: 497px;
+    height: 555px;
   }
   .support-btn {
     display: none;
@@ -395,6 +395,15 @@ body {
   .newspaper-full {
     height: 600px;
   }
+  .captions-inner h3 {
+    font-size: 48px;
+  }
+  .captions-inner p {
+    font-size: 18px;
+  }
+  .captions-inner {
+    padding-left: 58px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -409,12 +418,7 @@ body {
 
     margin-left: 1rem;
   }
-  .captions-all h3 {
-    font-size: 30px;
-  }
-  .captions-all p {
-    font-size: 15px;
-  }
+
   .captions-all {
     padding-left: 24px;
   }
@@ -480,5 +484,20 @@ body {
 @media screen and (min-width: 1440px) {
   .captions-all {
     padding: 110px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .captions-all h3 {
+    font-size: 30px;
+    width: 312px !important;
+    height: 144px;
+  }
+  .captions-all p {
+    font-size: 15px;
+    width: 290px !important;
+    height: 123px;
+  }
+  .captions-all {
+    padding-left: 0;
   }
 }

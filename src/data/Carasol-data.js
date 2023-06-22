@@ -6,6 +6,8 @@ const carasol_data = [
       " Cultivating a sustainable future by nurturing the Earth, empowering communities, and fostering environmental consciousness.",
     long: { width: "483px" },
     short: { width: "455px" },
+    mb: { width: "312px" },
+    mb_spara: { width: "293px" },
   },
   {
     url: "../assets/Carasol-2.png",
@@ -15,6 +17,8 @@ const carasol_data = [
       " Cultivating a sustainable future by nurturing the Earth, empowering communities, and fostering environmental consciousness.",
     long: { width: "662px" },
     short: { width: "572px" },
+    mb: { width: "312px" },
+    mb_spara: { width: "293px" },
   },
   {
     url: "../assets/Carasol-3.png",
@@ -23,6 +27,8 @@ const carasol_data = [
       " Cultivating a sustainable future by nurturing the Earth, empowering communities, and fostering environmental consciousness.",
     long: { width: "549px" },
     short: { width: "533px" },
+    mb: { width: "312px" },
+    mb_spara: { width: "293px" },
   },
   {
     url: "../assets/Carasol-4.png",
@@ -31,6 +37,8 @@ const carasol_data = [
       " Cultivating a sustainable future by nurturing the Earth, empowering communities, and fostering environmental consciousness.",
     long: { width: "549px" },
     short: { width: "533px" },
+    mb: { width: "312px" },
+    mb_spara: { width: "293px" },
   },
 ];
 export default carasol_data;

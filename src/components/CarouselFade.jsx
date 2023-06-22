@@ -5,7 +5,7 @@ function CarouselFade() {
   return (
     <div className='hero-full' id='what-we-do'>
       <Carousel fade interval={13000}>
-        {carasol_data.map((item) => {
+        {carasol_data.map((item, index) => {
           return (
             <Carousel.Item>
               <img
@@ -15,7 +15,7 @@ function CarouselFade() {
               />
               <Carousel.Caption className='captions-all'>
                 <div className='captions-inner'>
-                  <h3 className=' font-NoeDisplay' style={item.long}>
+                  <h3 className={`font-NoeDisplay` + ""} style={item.long}>
                     {item.title}
                   </h3>
                   <p className=' font-PlusJakartaSans' style={item.short}>
