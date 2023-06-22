@@ -94,25 +94,25 @@ const Navbar = () => {
                 WHAT WE DO
               </a>
 
-              <a href='' className='navlinks sm:hidden md:hidden lg:block'>
-                ABOUT US
-              </a>
-              <a href='' className='navlinks sm:hidden md:hidden lg:block'>
-                OUR VISION
-              </a>
-              <a href='' className='navlinks sm:hidden md:hidden lg:block'>
-                GALLERY
-              </a>
-              <a href='#team' className='navlinks sm:hidden md:hidden lg:block'>
-                OUR TEAM
-              </a>
+                    <a href='' className='navlinks sm:hidden md:hidden lg:block'>
+                    <p className=' mb-0'>ABOUT US</p>
+                    </a>
+                    <a href='' className='navlinks sm:hidden md:hidden lg:block'>
+                    <p className=' mb-0'>OUR VISION</p>
+                    </a>
+                    <a href='' className='navlinks sm:hidden md:hidden lg:block'>
+                    <p className=' mb-0'>GALLERY</p>
+                    </a>
+                    <a href='#team' className='navlinks sm:hidden md:hidden lg:block'>
+                     <p className=" mb-0">OUR TEAM</p>
+                    </a>
             </div>
 
-            <div className='sm:flex gap-2 md:flex md:gap-6'>
-              <a href='#donate' className='navlinks' id='special-a'>
-                <button className='flex lg:h-[43px] sm:h-[34px] sm:w-[100px] md:w-[127px] justify-center items-center mb-0 gap-2 rounded-full bgtransitiongreen special-click'>
-                  Donate
-                  <BiDonateHeart className='' />
+          <div className='sm:flex gap-2 md:flex md:gap-6'>
+            <a href="#donate" className="navlinks">
+                <button className='flex lg:h-[43px] sm:h-[34px] sm:w-[100px] md:w-[127px] justify-center items-center mb-0 gap-2 rounded-full bgtransitiongreen'>
+                    <p className=' mb-0 sm:mt-[2px] md:mt-1 uppercase'>Donate</p>
+                    <BiDonateHeart className='' />
                 </button>
               </a>
               <button onClick={clickhandler} className='lg:hidden text-white'>
