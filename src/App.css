@@ -482,7 +482,10 @@ body {
 @media screen and (max-width: 800px) {
   .newspaper-full {
     height: 700px;
-    padding: 2rem;
+    padding: 2rem 0;
+  }
+  .news-img img {
+    padding: 0 2rem;
   }
 }
 @media screen and (min-width: 1440px) {
