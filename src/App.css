@@ -318,7 +318,9 @@ body {
 }
 .captions-inner {
   max-width: 1440px;
-  padding-left: 180px;
+  margin: 0 auto;
+
+  padding-left: 110px;
 }
 .carousel-item {
   height: 575px;
