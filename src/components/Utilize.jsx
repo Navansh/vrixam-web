@@ -8,11 +8,11 @@ const Utilize = () => {
                 <p className=' font-NoeStandard mb-0 sm:text-center lg:text-left sm:text-[28px] md:text-[36px]  leading-[49px] text-[#04461F]'>How we utilize your <br /> donations and where it goes</p>
                 <p className=' font-PlusJakartaSans sm:text-center sm:text-[13px] lg:text-left md:text-[16px] leading-[27px] text-[#2D2D2D] mb-0'>We understand that when you make a donation, you <br /> want to know exactly where your money is going and we <br /> pledge to be transparent.</p>
 
-                <div className='lg:hidden md:mt-[72px] sm:scale-75 md:scale-100 sm:ml-3 md:ml-0'>
+                <div className='lg:hidden md:mt-[72px] sm:scale-y-75 sm:scale-x-90 md:scale-100 sm:ml-3 md:ml-0'>
                     <img src="https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687248186/utilize_qgswhh.png" className=' w-[512px] h-[313px]' alt="" />
                 </div>
 
-                <div className=' flex flex-wrap sm:ml-7 sm:pl-8  md:pl-0 md:ml-[50px] lg:ml-0 sm:max-w-[412px] md:max-w-[672px] md:pt-4 gap-6 mt-3'>
+                <div className=' flex flex-wrap sm:ml-7 sm:pl-6  md:pl-0 md:ml-[50px] lg:ml-0 sm:max-w-[412px] md:max-w-[672px] md:pt-4 gap-6 mt-3'>
                     <div className=' flex justify-center gap-[6px]'>
                         <div className=' sm:h-[10px] sm:w-[10px] mt-1 md:h-[14px] md:w-[14px] bg-[#006C2C]'></div>
                         <p className=' mb-0 sm:text-[13px] md:text-[16px]'>Plantation Projects</p>

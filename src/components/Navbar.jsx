@@ -45,7 +45,7 @@ const Navbar = () => {
         });
       });
     });
-  });
+  },[]);
 
   function clickhandler() {
     const c = !toggle;
@@ -150,7 +150,7 @@ const Navbar = () => {
             href='#what-we-do'
             className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
           >
-            WHAT WE DO
+            <p className=' mb-0'>WHAT WE DO</p>
           </a>
 
           <a
@@ -178,7 +178,7 @@ const Navbar = () => {
             href='#team'
             className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
           >
-            OUR TEAM
+            <p className=' mb-0'>OUR TEAM</p>
           </a>
         </div>
       </div>

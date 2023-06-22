@@ -31,10 +31,10 @@ const Gallery = () => {
       <div className='carousel-button-group'>
         <button className='carousel-btn prev' onClick={() => previous()}>
           {" "}
-          <AiOutlineLeft />
+          <AiOutlineLeft className=" scale-50" />
         </button>
         <button className='carousel-btn next' onClick={() => next()}>
-          <AiOutlineLeft className='next-btn' />
+          <AiOutlineLeft className='next-btn scale-50' />
         </button>
       </div>
     );
