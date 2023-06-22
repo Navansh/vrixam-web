@@ -57,17 +57,59 @@ const Awards = () => {
       </div>
       <div className='awards-slider'>
         <Carousel
+          additionalTransfrom={0}
+          arrows
+          autoPlay
+          autoPlaySpeed={1}
+          centerMode={false}
           className='hide-car'
-          swipeable={true}
-          arrows={true}
-          renderButtonGroupOutside={true}
-          draggable={false}
-          responsive={responsive}
-          infinite={true}
-          slidesToSlide={1}
-          autoPlay={true}
-          partialVisible={true}
-          autoPlaySpeed={500}
+          containerClass='container-with-dots'
+          customTransition='all 1s linear'
+          dotListClass=''
+          draggable
+          focusOnSelect={false}
+          infinite
+          itemClass=''
+          keyBoardControl
+          minimumTouchDrag={80}
+          pauseOnHover
+          renderArrowsWhenDisabled={false}
+          renderButtonGroupOutside={false}
+          renderDotsOutside={false}
+          responsive={{
+            desktop: {
+              breakpoint: {
+                max: 3000,
+                min: 1024,
+              },
+              items: 3,
+              partialVisibilityGutter: 40,
+            },
+            mobile: {
+              breakpoint: {
+                max: 464,
+                min: 0,
+              },
+              items: 1,
+              partialVisibilityGutter: 30,
+            },
+            tablet: {
+              breakpoint: {
+                max: 1024,
+                min: 464,
+              },
+              items: 2,
+              partialVisibilityGutter: 30,
+            },
+          }}
+          rewind={true}
+          rewindWithAnimation={true}
+          rtl={false}
+          shouldResetAutoplay
+          showDots={false}
+          slidesToSlide={2}
+          swipeable
+          transitionDuration={1000}
         >
           <div className=' aw-card'>
             <div className='aw-card-img first'>
@@ -266,16 +308,33 @@ const Awards = () => {
       <div className='show-carousel'>
         <Carousel
           className='show-car'
-          swipeable={true}
-          arrows={true}
-          renderButtonGroupOutside={true}
-          draggable={false}
+          additionalTransfrom={0}
+          arrows
+          autoPlay
+          autoPlaySpeed={1}
+          centerMode={false}
+          containerClass='container-with-dots'
+          customTransition='all 1s linear'
+          dotListClass=''
+          draggable
+          focusOnSelect={false}
+          infinite
+          itemClass=''
+          keyBoardControl
+          minimumTouchDrag={80}
+          pauseOnHover
+          renderArrowsWhenDisabled={false}
+          renderButtonGroupOutside={false}
+          renderDotsOutside={false}
+          rewind={true}
+          rewindWithAnimation={true}
+          rtl={false}
+          shouldResetAutoplay
           responsive={responsives}
-          infinite={true}
-          slidesToSlide={1}
-          autoPlay={true}
-          partialVisible={true}
-          autoPlaySpeed={500}
+          showDots={false}
+          slidesToSlide={2}
+          swipeable
+          transitionDuration={1000}
         >
           <div className=' aw-card'>
             <div className='aw-card-img first'>
