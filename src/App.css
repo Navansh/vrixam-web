@@ -336,6 +336,9 @@ body {
 .single-img-only {
   display: none;
 }
+.show-car {
+  display: none !important;
+}
 @media screen and (min-width: 1440px) {
   .carousel-indicators {
     right: 170px !important;
@@ -385,6 +388,9 @@ body {
   }
   .hide-car {
     display: none !important;
+  }
+  .show-car {
+    display: flex !important;
   }
   .single-img-only img {
     margin: 0 auto;
@@ -523,4 +529,7 @@ body {
 .gallery-heading h3 {
   margin-top: 94px;
   margin-bottom: 67px;
+}
+.awards-slider .react-multi-carousel-item {
+  width: 500px !important;
 }

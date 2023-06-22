@@ -19,12 +19,29 @@ const responsive = {
   },
 };
 
+const responsives = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 1000 },
+    items: 3,
+  },
+
+  tablet: {
+    breakpoint: { max: 1000, min: 600 },
+    items: 1,
+  },
+  mobile: {
+    breakpoint: { max: 600, min: 0 },
+    items: 1,
+  },
+};
+
 const Awards = () => {
   return (
     <div className='all-awards'>
       <div className='awards-header'>
         <div className='main-heading'>
-          <h3 className=" font-NoeStandard">
+          <h3 className=' font-NoeStandard'>
             Nationally awarded and recognized for commendable work towards
             society
           </h3>
@@ -49,7 +66,7 @@ const Awards = () => {
           infinite={true}
           slidesToSlide={1}
           autoPlay={true}
-          autoPlaySpeed={2}
+          partialVisible={true}
         >
           <div className=' aw-card'>
             <div className='aw-card-img first'>
@@ -64,7 +81,10 @@ const Awards = () => {
 
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457500/image_25_zl5rsn.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457500/image_25_zl5rsn.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
           <p>
@@ -73,10 +93,12 @@ const Awards = () => {
         </div> */}
           </div>
 
-
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457499/image_12_mdgab7.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457499/image_12_mdgab7.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
              <p>
@@ -87,7 +109,10 @@ const Awards = () => {
 
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457498/image_23_gjrnca.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457498/image_23_gjrnca.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
              <p>
@@ -98,7 +123,10 @@ const Awards = () => {
 
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457498/image_15_afokl6.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457498/image_15_afokl6.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
              <p>
@@ -109,7 +137,10 @@ const Awards = () => {
 
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457498/image_24_bhmisi.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457498/image_24_bhmisi.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
              <p>
@@ -120,7 +151,10 @@ const Awards = () => {
 
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457497/image_20_eozcoe.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457497/image_20_eozcoe.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
              <p>
@@ -131,7 +165,10 @@ const Awards = () => {
 
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457497/image_16_evgxle.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457497/image_16_evgxle.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
              <p>
@@ -142,7 +179,10 @@ const Awards = () => {
 
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457496/image_19_d0zxws.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457496/image_19_d0zxws.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
              <p>
@@ -153,7 +193,10 @@ const Awards = () => {
 
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457496/image_22_qc3vmw.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457496/image_22_qc3vmw.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
              <p>
@@ -164,7 +207,10 @@ const Awards = () => {
 
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457496/image_13_leryat.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457496/image_13_leryat.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
              <p>
@@ -175,7 +221,10 @@ const Awards = () => {
 
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457496/image_17_o4kwi4.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457496/image_17_o4kwi4.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
              <p>
@@ -186,7 +235,10 @@ const Awards = () => {
 
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457495/image_18_oa69lv.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457495/image_18_oa69lv.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
              <p>
@@ -197,7 +249,10 @@ const Awards = () => {
 
           <div className='aw-cards'>
             <div className='aw-card-img second'>
-              <img src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457495/image_14_uvzprd.png' alt='' />
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457495/image_14_uvzprd.png'
+                alt=''
+              />
             </div>
             {/* <div className='card-container'>
              <p>
@@ -205,26 +260,214 @@ const Awards = () => {
             </p>
             </div> */}
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </Carousel>
       </div>
-      <div className='single-img-only'>
-        <img src='../assets/awards-1.png' alt='' />
+      <div className='show-carousel'>
+        <Carousel
+          className='show-car'
+          swipeable={true}
+          arrows={true}
+          renderButtonGroupOutside={true}
+          draggable={false}
+          responsive={responsives}
+          infinite={true}
+          slidesToSlide={1}
+          autoPlay={true}
+          partialVisible={true}
+        >
+          <div className=' aw-card'>
+            <div className='aw-card-img first'>
+              <img src='../assets/awards-1.png' alt='' />
+            </div>
+            {/* <div className='card-container'>
+          <p>
+            
+          </p>
+        </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457500/image_25_zl5rsn.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+          <p>
+            
+          </p>
+        </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457499/image_12_mdgab7.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+             <p>
+            
+            </p>
+            </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457498/image_23_gjrnca.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+             <p>
+            
+            </p>
+            </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457498/image_15_afokl6.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+             <p>
+            
+            </p>
+            </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457498/image_24_bhmisi.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+             <p>
+            
+            </p>
+            </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457497/image_20_eozcoe.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+             <p>
+            
+            </p>
+            </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457497/image_16_evgxle.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+             <p>
+            
+            </p>
+            </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457496/image_19_d0zxws.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+             <p>
+            
+            </p>
+            </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457496/image_22_qc3vmw.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+             <p>
+            
+            </p>
+            </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457496/image_13_leryat.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+             <p>
+            
+            </p>
+            </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457496/image_17_o4kwi4.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+             <p>
+            
+            </p>
+            </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457495/image_18_oa69lv.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+             <p>
+            
+            </p>
+            </div> */}
+          </div>
+
+          <div className='aw-cards'>
+            <div className='aw-card-img second'>
+              <img
+                src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687457495/image_14_uvzprd.png'
+                alt=''
+              />
+            </div>
+            {/* <div className='card-container'>
+             <p>
+            
+            </p>
+            </div> */}
+          </div>
+        </Carousel>
       </div>
       <div className='right-white'></div>
     </div>
