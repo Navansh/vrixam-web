@@ -323,6 +323,9 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.car-2 {
+  display: none !important;
+}
 @media screen and (min-width: 1440px) {
   .carousel-indicators {
     right: 170px !important;
@@ -350,6 +353,22 @@ body {
   .donate-btn {
     display: flex;
     width: 110px;
+  }
+  .car-1 {
+    display: none !important;
+  }
+  .car-2 {
+    display: flex !important;
+  }
+  .awards-header {
+    position: static;
+    background: white;
+    width: 90vw;
+    text-align: center;
+  }
+  .gallery-full {
+    padding-left: 0;
+    margin: 0 auto;
   }
 }
 
