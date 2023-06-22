@@ -40,6 +40,7 @@ const Awards = () => {
       </div>
       <div className='awards-slider'>
         <Carousel
+          className='hide-car'
           swipeable={true}
           arrows={true}
           renderButtonGroupOutside={true}
@@ -81,6 +82,9 @@ const Awards = () => {
         </div> */}
           </div>
         </Carousel>
+      </div>
+      <div className='single-img-only'>
+        <img src='../assets/awards-1.png' alt='' />
       </div>
       <div className='right-white'></div>
     </div>

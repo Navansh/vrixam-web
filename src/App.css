@@ -1,3 +1,6 @@
+.navbar {
+  overflow-x: hidden;
+}
 .captions-all {
   width: 100vw;
   height: 100%;
@@ -174,13 +177,14 @@ body {
 
 .awards-slider {
   transform: translateX(500px);
+  margin-bottom: 4rem;
 }
 .all-awards {
   position: relative;
 }
 .awards-header {
   position: absolute;
-  top: 0;
+  top: -30px;
   left: 0;
   z-index: 2;
   background: linear-gradient(
@@ -193,6 +197,7 @@ body {
   height: 100%;
   padding-left: 108px;
   padding-top: 2rem;
+  /* padding-right: 5rem; */
 }
 .main-heading h3 {
   font-weight: 700;
@@ -326,6 +331,9 @@ body {
 .car-2 {
   display: none !important;
 }
+.single-img-only {
+  display: none;
+}
 @media screen and (min-width: 1440px) {
   .carousel-indicators {
     right: 170px !important;
@@ -369,6 +377,22 @@ body {
   .gallery-full {
     padding-left: 0;
     margin: 0 auto;
+  }
+  .single-img-only {
+    display: block;
+  }
+  .hide-car {
+    display: none !important;
+  }
+  .single-img-only img {
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+  }
+  .right-white {
+    display: none;
+  }
+  .newspaper-full {
+    height: 600px;
   }
 }
 
@@ -444,5 +468,11 @@ body {
   .left,
   .right {
     display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .newspaper-full {
+    height: 700px;
+    padding: 2rem;
   }
 }
