@@ -27,7 +27,7 @@ const Navbar = () => {
           id = e.target.parentNode.href.slice(-6);
         } else {
           console.log(e.target);
-          id = e.target.getAttribute("href").slice(1);
+          id = e.target.parentNode.getAttribute("href").slice(1);
         }
         console.log(id);
         const element = document.getElementById(id);
