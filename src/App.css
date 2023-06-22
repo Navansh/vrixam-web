@@ -175,7 +175,7 @@ body {
 }
 
 .awards-slider {
-  transform: translateX(500px);
+  margin-left: 500px;
   margin-bottom: 4rem;
 }
 .all-awards {
