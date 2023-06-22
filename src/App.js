@@ -20,7 +20,7 @@ import HighlightsV2 from "./components/HighlightsV2";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
       <CarouselFade />
       <OurMotto />

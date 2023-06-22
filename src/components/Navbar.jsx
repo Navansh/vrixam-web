@@ -62,8 +62,8 @@ const Navbar = () => {
 
   return (
     <div className="relative">
-        <nav className={` w-full scroll-smooth`} id='navbar'>
-            <div className=' max-w-[1440px] mx-auto '>
+        <nav className=' scroll-smooth ' id='navbar'>
+            <div className='sm:max-w-[468px] md:max-w-[768px] lg:max-w-[1440px] mx-auto '>
                 <div className='sm:ml-[1.5rem] sm:mr-[1.5rem]  md:ml-[2.188rem] md:mr-[2.188rem] lg:ml-[6.75rem] lg:mr-[6.75rem] flex justify-between  md:gap-72 h-20 items-center font-AnekMalayalam  text-white'>
                 <div className=' flex gap-[62px] text-[13px] leading-[18px] items-center'>
                     <div className=' flex items-center gap-2'>
