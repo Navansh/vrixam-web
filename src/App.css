@@ -502,5 +502,6 @@ body {
   }
   .carousel-indicators {
     margin-bottom: 1.5rem !important;
+    margin-right: 180px !important;
   }
 }
