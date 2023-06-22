@@ -67,6 +67,7 @@ const Awards = () => {
           slidesToSlide={1}
           autoPlay={true}
           partialVisible={true}
+          autoPlaySpeed={500}
         >
           <div className=' aw-card'>
             <div className='aw-card-img first'>
@@ -274,6 +275,7 @@ const Awards = () => {
           slidesToSlide={1}
           autoPlay={true}
           partialVisible={true}
+          autoPlaySpeed={500}
         >
           <div className=' aw-card'>
             <div className='aw-card-img first'>
