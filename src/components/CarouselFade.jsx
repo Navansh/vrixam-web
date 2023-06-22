@@ -3,7 +3,7 @@ import carasol_data from "../data/Carasol-data";
 import { BiDonateHeart } from "react-icons/bi";
 function CarouselFade() {
   return (
-    <div className='hero-full'>
+    <div className='hero-full' id='what-we-do'>
       <Carousel fade interval={13000}>
         {carasol_data.map((item) => {
           return (
