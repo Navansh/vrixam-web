@@ -85,3 +85,20 @@
   text-decoration: none;
   color: white;
 }
+.grclose path {
+    stroke : white;
+}
+
+/* adding media queries for min width of 768px  */
+
+@media screen and (min-width: 768px) {
+    .cssprogress {
+        padding: 100px 48px 64px;
+    }
+}
+@media screen and (min-width: 368px) {
+    .cssprogress {
+        padding: 100px 24px 64px;
+    }
+}
+

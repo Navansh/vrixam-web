@@ -16,6 +16,7 @@ import Footer from "./components/Footer";
 import Awards from "./components/Awards";
 import Newspaper from "./components/Newspaper";
 import Seeds from "./components/Seeds";
+import HighlightsV2 from "./components/HighlightsV2";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       <CarouselFade />
       <OurMotto />
       <Progress></Progress>
-      <Highlights></Highlights>
+      {/* <Highlights></Highlights> */}
+      <HighlightsV2></HighlightsV2>
       <Aims></Aims>
 
       <Utilize></Utilize>

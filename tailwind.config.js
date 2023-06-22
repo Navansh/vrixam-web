@@ -16,6 +16,16 @@ module.exports = {
         normal: 500,
         bold: 700,
       },
+      screens: {
+        'sm': '368px',
+        // => @media (min-width: 576px) { ... }
+  
+        'md': '768px',
+        // => @media (min-width: 960px) { ... }
+  
+        'lg': '1440px',
+        // => @media (min-width: 1440px) { ... }
+      },
     },
   },
   plugins: [],

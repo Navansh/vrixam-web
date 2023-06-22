@@ -2,8 +2,7 @@ const aims_data = [
     {
         url : "https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687239738/aims_1_sdnwjd.png",
         title : "Eco-Care",
-        subtitle : "Community well-being through environmental care and inspiring sustainable actions by community"
-
+        subtitle : `Community well-being through environmental care and inspiring sustainable actions by community`
     },
     {
         url : "https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687239738/aims_2_zuxeyi.png",
@@ -18,7 +17,7 @@ const aims_data = [
     {
         url : "https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687239738/aims_4_qchn6m.png",
         title : "Agroecology",
-        subtitle : "Community support for greener lifestyle and promoting reduced carbon footprint."
+        subtitle : "Community support for greener lifestyle and promoting reduced carbon footprint by using sustainable techniques."
     },
     {
         url : "https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687239738/aims_5_nko3yt.png",

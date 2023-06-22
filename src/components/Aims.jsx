@@ -3,7 +3,7 @@ import aims_data from '../data/Aims-data'
 
 const Aims = () => {
   return (
-    <div className=' cssaims max-w-[1440px] mx-auto'>
+    <div className=' cssaims max-w-[1440px] mx-auto sm:hidden lg:block'>
       <div className='flex justify-between gap-20 '>
           <div className=' flex flex-col gap-[14px] max-w-[366px]'>
             <p className=' font-NoeStandard text-[36px] leading-[49px] text-[#171717] mb-0'>Our Aims & Values, We Are Proud Of</p>
