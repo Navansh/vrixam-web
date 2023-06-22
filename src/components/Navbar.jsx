@@ -101,10 +101,10 @@ const Navbar = () => {
                     </a>
             </div>
 
-          <div className='sm:flex sm:gap-5 md:flex md:gap-6'>
+          <div className='sm:flex gap-2 md:flex md:gap-6'>
             <a href="#donate" className="navlinks">
-                <button className='flex lg:h-[43px] sm:h-[34px] w-[127px] justify-center items-center mb-0 gap-2 rounded-full bgtransitiongreen'>
-                    <p className=' mb-0 mt-1'>Donate</p>
+                <button className='flex lg:h-[43px] sm:h-[34px] sm:w-[100px] md:w-[127px] justify-center items-center mb-0 gap-2 rounded-full bgtransitiongreen'>
+                    <p className=' mb-0 sm:mt-[2px] md:mt-1'>Donate</p>
                     <BiDonateHeart className='' />
                 </button>
             </a>
@@ -150,6 +150,8 @@ const Navbar = () => {
         </div>
     </div>
     );
+
 };
+
 
 export default Navbar;
