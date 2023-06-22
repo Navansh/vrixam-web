@@ -500,4 +500,7 @@ body {
   .captions-all {
     padding-left: 0;
   }
+  .carousel-indicators {
+    margin-bottom: 1.5rem !important;
+  }
 }
