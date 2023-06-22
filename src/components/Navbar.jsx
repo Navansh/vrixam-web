@@ -25,11 +25,11 @@ const Navbar = () => {
         let id = "";
         console.log(e.target);
         if (e.target.classList.contains("special-click")) {
-          console.log("hi");
           console.log(e.target.parentNode.parentNode);
           id = e.target.parentNode.parentNode.href.slice(-6);
         } else {
           console.log(e.target);
+
           id = e.target.parentNode.getAttribute("href").slice(1);
         }
         console.log(id);
@@ -117,7 +117,7 @@ const Navbar = () => {
                   <p className=' mb-0 sm:mt-[2px] md:mt-1 uppercase special-click'>
                     Donate
                   </p>
-                  <BiDonateHeart className='' />
+                  <BiDonateHeart className='special-click' />
                 </button>
               </a>
               <button onClick={clickhandler} className='lg:hidden text-white'>

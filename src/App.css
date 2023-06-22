@@ -193,7 +193,7 @@ body {
     rgba(255, 255, 255, 0) 100%
   );
   width: 47%;
-  height: 100%;
+  height: calc(100% + 30px);
   padding-left: 108px;
   padding-top: 2rem;
   /* padding-right: 5rem; */
@@ -474,6 +474,10 @@ body {
   .right {
     display: none;
   }
+  .gallery-heading h3 {
+    margin-top: 64px;
+    margin-bottom: 56px;
+  }
 }
 @media screen and (max-width: 800px) {
   .newspaper-full {
@@ -504,4 +508,15 @@ body {
     margin-bottom: 1.5rem !important;
     margin-right: 180px !important;
   }
+  .card-img img {
+    height: 240px;
+    width: 93%;
+  }
+  .card-img {
+    height: auto;
+  }
+}
+.gallery-heading h3 {
+  margin-top: 94px;
+  margin-bottom: 67px;
 }
