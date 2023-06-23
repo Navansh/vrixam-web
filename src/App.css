@@ -345,7 +345,7 @@ body {
     right: 170px !important;
   }
   .all-awards {
-    padding-left: calc(100vw -1440px);
+    padding-left: calc(100vw - 1440px);
   }
 }
 @media screen and (min-width: 2000px) {
