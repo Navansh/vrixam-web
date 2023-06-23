@@ -40,9 +40,9 @@ const Gallery = () => {
     );
   };
   return (
-    <div className='gallery-full'>
+    <div className='gallery-full' id="gallery">
       <div className='gallery-heading'>
-        <h3>Our Gallery</h3>
+        <h3 className="font-NoeStandard">Our Gallery</h3>
       </div>
       <Carousel
         className='carousel-gallery car-1'

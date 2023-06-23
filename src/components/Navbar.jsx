@@ -92,21 +92,21 @@ const Navbar = () => {
 
               <a
                 href='#what-we-do'
-                className='navlinks sm:hidden md:hidden lg:block'
+                className='navlinks sm:hidden md:hidden lg:block' onClick={clickhandler}
               >
-                WHAT WE DO
+                <p className=" mb-0">WHAT WE DO</p>
               </a>
 
-              <a href='' className='navlinks sm:hidden md:hidden lg:block'>
+              <a href='' className='navlinks sm:hidden md:hidden lg:block' onClick={clickhandler}>
                 <p className=' mb-0'>ABOUT US</p>
               </a>
-              <a href='' className='navlinks sm:hidden md:hidden lg:block'>
+              <a href='' className='navlinks sm:hidden md:hidden lg:block' onClick={clickhandler}>
                 <p className=' mb-0'>OUR VISION</p>
               </a>
-              <a href='' className='navlinks sm:hidden md:hidden lg:block'>
+              <a href='#gallery' className='navlinks sm:hidden md:hidden lg:block' onClick={clickhandler}>
                 <p className=' mb-0'>GALLERY</p>
               </a>
-              <a href='#team' className='navlinks sm:hidden md:hidden lg:block'>
+              <a href='#team' className='navlinks sm:hidden md:hidden lg:block' onClick={clickhandler}>
                 <p className=' mb-0'>OUR TEAM</p>
               </a>
             </div>
@@ -149,6 +149,7 @@ const Navbar = () => {
           <a
             href='#what-we-do'
             className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
+            onClick={clickhandler}
           >
             <p className=' mb-0'>WHAT WE DO</p>
           </a>
@@ -156,6 +157,7 @@ const Navbar = () => {
           <a
             href=''
             className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
+            onClick={clickhandler}
           >
             <p className=' mb-0'>ABOUT US</p>
           </a>
@@ -163,13 +165,15 @@ const Navbar = () => {
           <a
             href=''
             className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
+            onClick={clickhandler}
           >
             <p className=' mb-0'>OUR VISION</p>
           </a>
 
           <a
-            href=''
+            href='#gallery'
             className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
+            onClick={clickhandler}
           >
             <p className=' mb-0'>GALLERY</p>
           </a>
@@ -177,6 +181,7 @@ const Navbar = () => {
           <a
             href='#team'
             className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
+            onClick={clickhandler}
           >
             <p className=' mb-0'>OUR TEAM</p>
           </a>

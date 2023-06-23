@@ -205,7 +205,7 @@ const Donation = () => {
               </div>
             </div>
             <div className="self-stretch h-[564.66px] p-[0px] flex-col justify-start items-start gap-12 flex">
-              <div className=" pb-10 bg-white rounded-2xl ml-6 flex-col justify-start items-center gap-10 flex">
+              <div className=" pb-10 bg-white rounded-2xl ml-8 flex-col justify-start items-center gap-10 flex">
                 <div className="w-[247.22px] h-[329.22px]">
                     <img
                     src="https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687266701/upiqr_kuxznp.png"
