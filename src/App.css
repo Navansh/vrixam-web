@@ -345,7 +345,7 @@ body {
     right: 170px !important;
   }
   .awards-header {
-    padding-left: calc(100vw - 1440px + 108px);
+    padding-left: calc(100vw - 1440px);
   }
 }
 @media screen and (min-width: 2000px) {
