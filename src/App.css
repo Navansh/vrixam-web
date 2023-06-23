@@ -344,7 +344,7 @@ body {
   .carousel-indicators {
     right: 170px !important;
   }
-  .all-awards {
+  .awards-header {
     padding-left: calc(100vw - 1440px + 108px);
   }
 }
