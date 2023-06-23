@@ -10,6 +10,10 @@
   background: linear-gradient(93.01deg, #006c2c 0%, #00933c 100%);
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 @font-face {
   font-family: NoeDisplay;
   src: url(../src/assets/fonts/NoeDisplay-Semibold.otf);
