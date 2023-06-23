@@ -381,7 +381,10 @@ body {
     position: static;
     background: white;
     width: 90vw;
+
+    padding-left: 0;
     text-align: center;
+    margin: 0 auto;
   }
   .gallery-full {
     padding-left: 0;

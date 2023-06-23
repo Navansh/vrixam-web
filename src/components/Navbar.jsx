@@ -30,7 +30,12 @@ const Navbar = () => {
         } else {
           console.log(e.target);
 
-          id = e.target.parentNode.getAttribute("href").slice(1);
+          id = e.target.parentNode.getAttribute("href");
+          if (id) {
+            id = id.slice(1);
+          } else {
+            id = e.target.getAttribute("href").slice(1);
+          }
         }
         console.log(id);
         const element = document.getElementById(id);
@@ -45,7 +50,7 @@ const Navbar = () => {
         });
       });
     });
-  },[]);
+  }, []);
 
   function clickhandler() {
     const c = !toggle;
