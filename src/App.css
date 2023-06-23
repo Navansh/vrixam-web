@@ -446,6 +446,7 @@ body {
 }
 .seed-img img {
   width: 100vw;
+  transform: translateY(10px);
 }
 
 @media screen and (max-width: 1200px) {
