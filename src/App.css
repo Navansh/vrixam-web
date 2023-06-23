@@ -360,6 +360,10 @@ body {
   .carousel-item {
     height: 555px;
   }
+  .img-wordings {
+    font-size: 60px;
+    margin: 0 auto;
+  }
   .support-btn {
     display: none;
   }
