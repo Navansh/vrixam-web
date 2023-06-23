@@ -65,7 +65,7 @@ const Highlights = () => {
                   <h2 className=' font-AnekMalayalam font-bold text-[22px] mb-0 leading-[31px] uppercase text-[#006C2C] '>
                     {item.title}
                   </h2>
-                  <p className=' font-PlusJakartaSans text-[15px] mb-0 opacity-90 leading-5'>
+                  <p className=' font-PlusJakartaSans text-[#2D2D2D] text-[15px] mb-0 opacity-90 leading-6'>
                     {item.subtitle}
                   </p>
                 </div>

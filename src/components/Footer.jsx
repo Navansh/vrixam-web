@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className=" w-full bg-[#1A1A1A]">
       <div className=" flex flex-col max-w-[1440px] mx-auto sm:hidden lg:flex">
-        <div className="flex  lg:ml-[6.75rem] lg:justify-between mt-[3.625rem]">
+        <div className="flex  lg:ml-[6.75rem] lg:mr-[6.75rem] lg:justify-between mt-[3.625rem]">
           <div className=" lg:gap-[18px]  flex lg:flex-col " id="1">
             <img
               src="https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687280053/logo-text_wfvhxi.png"
@@ -32,7 +32,7 @@ const Footer = () => {
                 <span className=" text-[#2DA94F]">Support</span> our cause for a
                 better world.
               </p>
-              <p className=" text-white text-[13px] font-PlusJakartaSans mt-[8px] leading-[20px] opacity-80">
+              <p className=" text-white text-[13px] opacity-80 font-PlusJakartaSans mt-[8px] leading-[20px]">
                 Donate to our NGO now via UPI and be the catalyst for positive
                 change. Every contribution counts in building sustainable
                 communities and empowering lives. Join us today!

@@ -2,7 +2,7 @@ import React from 'react'
 
 const HighlightsV2 = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full' id='highlights'>
         <div className="max-w-[1440px] mx-auto sm:hidden lg:block ">
             <div className='h-[760px] px-[108px] pt-[60px] pb-20 flex-col justify-start items-center gap-10 inline-flex'>
             <div className="self-stretch text-neutral-900 text-[36px] font-bold font-NoeStandard leading-10">In the highlights</div>

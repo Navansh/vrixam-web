@@ -82,31 +82,31 @@ const Navbar = () => {
                 <img
                   src='https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687167490/logo_m3yaf9.png'
                   alt=''
-                  className=' scale-75'
+                  className=' sm:h-[37px] md:h-[43px] '
                 />
-                <div>
-                  <p className=' text-[18px] leading-5 font-NoeStandard mb-0'>
+                <div className="flex flex-col">
+                  <p className=' sm:text-[15px] md:text-[18px] leading-5 font-NoeStandard mb-0'>
                     Vrixam
                   </p>
-                  <p className=' text-[18px] leading-5 font-NoeStandard mb-0'>
+                  <p className=' sm:text-[15px] md:text-[18px] leading-5 font-NoeStandard mb-0'>
                     Amritam
                   </p>
-                  <p className=' text-[10px] mb-0'>Seva Sansthan</p>
+                  <p className=' sm:text-[8px] md:text-[10px] mb-0 uppercase'>Seva Sansthan</p>
                 </div>
               </div>
 
               <a
-                href='#what-we-do'
+                href='#progress'
                 className='navlinks sm:hidden md:hidden lg:block' onClick={clickhandler}
               >
                 <p className=" mb-0">WHAT WE DO</p>
               </a>
 
-              <a href='' className='navlinks sm:hidden md:hidden lg:block' onClick={clickhandler}>
+              <a href='#aims' className='navlinks sm:hidden md:hidden lg:block' onClick={clickhandler}>
                 <p className=' mb-0'>ABOUT US</p>
               </a>
-              <a href='' className='navlinks sm:hidden md:hidden lg:block' onClick={clickhandler}>
-                <p className=' mb-0'>OUR VISION</p>
+              <a href='#highlights' className='navlinks sm:hidden md:hidden lg:block' onClick={clickhandler}>
+                <p className=' mb-0'>EVENTS</p>
               </a>
               <a href='#gallery' className='navlinks sm:hidden md:hidden lg:block' onClick={clickhandler}>
                 <p className=' mb-0'>GALLERY</p>
@@ -118,8 +118,8 @@ const Navbar = () => {
 
             <div className='sm:flex gap-2 md:flex md:gap-6'>
               <a href='#donate' className='navlinks'>
-                <button className='flex lg:h-[43px] sm:h-[34px] sm:w-[100px] md:w-[127px] justify-center items-center mb-0 gap-2 rounded-full bgtransitiongreen'>
-                  <p className=' mb-0 sm:mt-[2px] md:mt-1 uppercase special-click'>
+                <button className='flex lg:h-[38px] sm:h-[34px] sm:w-[100px] md:w-[127px] justify-center items-center mb-0 gap-2 rounded-full bgtransitiongreen'>
+                  <p className=' mb-0 sm:mt-[2px] md:mt-[2px] uppercase special-click'>
                     Donate
                   </p>
                   <BiDonateHeart className='special-click' />
@@ -152,7 +152,7 @@ const Navbar = () => {
       >
         <div className='bg-[#1A1A1A] flex flex-col items-center text-white'>
           <a
-            href='#what-we-do'
+            href='#progress'
             className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
             onClick={clickhandler}
           >
@@ -160,7 +160,7 @@ const Navbar = () => {
           </a>
 
           <a
-            href=''
+            href='#aims'
             className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
             onClick={clickhandler}
           >
@@ -168,11 +168,11 @@ const Navbar = () => {
           </a>
 
           <a
-            href=''
+            href='#highlights'
             className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
             onClick={clickhandler}
           >
-            <p className=' mb-0'>OUR VISION</p>
+            <p className=' mb-0'>EVENTS</p>
           </a>
 
           <a
