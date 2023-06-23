@@ -58,7 +58,7 @@ const Awards = () => {
       <div className='awards-slider'>
         <Carousel
           additionalTransfrom={0}
-          arrows
+          arrows={false}
           autoPlay
           autoPlaySpeed={1}
           centerMode={false}
@@ -309,7 +309,7 @@ const Awards = () => {
         <Carousel
           className='show-car'
           additionalTransfrom={0}
-          arrows
+          arrows={false}
           autoPlay
           autoPlaySpeed={1}
           centerMode={false}

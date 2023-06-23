@@ -179,6 +179,7 @@ body {
   margin-bottom: 4rem;
 }
 .all-awards {
+  margin-top: 60px;
   position: relative;
 }
 .awards-header {
@@ -342,6 +343,9 @@ body {
 @media screen and (min-width: 1440px) {
   .carousel-indicators {
     right: 170px !important;
+  }
+  .all-awards {
+    padding-left: 170px;
   }
 }
 @media screen and (min-width: 2000px) {
