@@ -31,7 +31,7 @@ const Gallery = () => {
       <div className='carousel-button-group'>
         <button className='carousel-btn prev' onClick={() => previous()}>
           {" "}
-          <AiOutlineLeft className=" scale-50" />
+          <AiOutlineLeft className=' scale-50' />
         </button>
         <button className='carousel-btn next' onClick={() => next()}>
           <AiOutlineLeft className='next-btn scale-50' />
@@ -40,9 +40,9 @@ const Gallery = () => {
     );
   };
   return (
-    <div className='gallery-full' id="gallery">
+    <div className='gallery-full' id='gallery'>
       <div className='gallery-heading'>
-        <h3 className="font-NoeStandard">Our Gallery</h3>
+        <h3 className='font-NoeStandard'>Our Gallery</h3>
       </div>
       <Carousel
         className='carousel-gallery car-1'
@@ -55,7 +55,7 @@ const Gallery = () => {
         responsive={responsive}
         infinite={true}
         slidesToSlide={2}
-        
+        pauseOnHover={false}
       >
         <div className=' why-cards'>
           <div className='card-img'>
@@ -155,6 +155,7 @@ const Gallery = () => {
         responsive={responsive}
         infinite={true}
         slidesToSlide={1}
+        pauseOnHover={false}
       >
         <div className=' why-cards'>
           <div className='card-img'>
