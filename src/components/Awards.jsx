@@ -57,27 +57,58 @@ const Awards = () => {
       </div>
       <div className='awards-slider'>
         <Carousel
-          className='hide-car'
           additionalTransfrom={0}
           arrows={false}
           autoPlay
           autoPlaySpeed={1}
           centerMode={false}
+          className='hide-car'
           containerClass='container-with-dots'
           customTransition='all 1s linear'
           dotListClass=''
+          draggable
+          focusOnSelect={false}
           infinite
           itemClass=''
           keyBoardControl
+          minimumTouchDrag={80}
+          pauseOnHover={false}
           renderArrowsWhenDisabled={false}
           renderButtonGroupOutside={false}
           renderDotsOutside={false}
+          responsive={{
+            desktop: {
+              breakpoint: {
+                max: 3000,
+                min: 1024,
+              },
+              items: 3,
+              partialVisibilityGutter: 40,
+            },
+            mobile: {
+              breakpoint: {
+                max: 464,
+                min: 0,
+              },
+              items: 1,
+              partialVisibilityGutter: 30,
+            },
+            tablet: {
+              breakpoint: {
+                max: 1024,
+                min: 464,
+              },
+              items: 2,
+              partialVisibilityGutter: 30,
+            },
+          }}
+          rewind={true}
           rewindWithAnimation={true}
           rtl={false}
           shouldResetAutoplay
-          responsive={responsives}
           showDots={false}
           slidesToSlide={2}
+          swipeable
           transitionDuration={1000}
         >
           <div className=' aw-card'>
@@ -285,18 +316,24 @@ const Awards = () => {
           containerClass='container-with-dots'
           customTransition='all 1s linear'
           dotListClass=''
+          draggable
+          focusOnSelect={false}
           infinite
           itemClass=''
           keyBoardControl
+          minimumTouchDrag={80}
+          pauseOnHover={false}
           renderArrowsWhenDisabled={false}
           renderButtonGroupOutside={false}
           renderDotsOutside={false}
+          rewind={true}
           rewindWithAnimation={true}
           rtl={false}
           shouldResetAutoplay
           responsive={responsives}
           showDots={false}
           slidesToSlide={2}
+          swipeable
           transitionDuration={1000}
         >
           <div className=' aw-card'>
