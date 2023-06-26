@@ -17,6 +17,7 @@ import Awards from "./components/Awards";
 import Newspaper from "./components/Newspaper";
 import Seeds from "./components/Seeds";
 import HighlightsV2 from "./components/HighlightsV2";
+import Inauguration from "./components/Inauguration";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <Donation></Donation>
       <Newspaper />
       <Team></Team>
+      <Inauguration></Inauguration>
       <Seeds />
       <Footer></Footer>
     </div>
