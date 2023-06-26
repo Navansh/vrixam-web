@@ -5,7 +5,7 @@ const Utilize = () => {
     <div className=' w-full  cssutilize'>
         <div className=' flex sm:flex-col lg:flex-row mx-auto py-[70px] gap-9 max-w-[1440px]'>
             <div className=' max-w-[561px] flex flex-col md:items-center lg:items-stretch gap-[14px] md:mx-auto  lg:mr-0 lg:ml-[180px] mt-[21px]'>
-                <p className=' font-NoeStandard mb-0 sm:text-center lg:text-left sm:text-[28px] md:text-[36px]  leading-[49px] text-[#04461F]'>How we utilize your <br /> donations and where it goes</p>
+                <p className=' font-NoeStandard mb-0 sm:text-center lg:text-left sm:text-[28px] md:text-[36px] sm:leading-9  md:leading-[49px] text-[#04461F]'>How we utilize your <br /> donations and <span className=' sm:inline md:hidden'><br /></span> where it goes</p>
                 <p className=' font-PlusJakartaSans sm:text-center sm:text-[13px] lg:text-left md:text-[16px] leading-[27px] text-[#2D2D2D] mb-0'>We understand that when you make a donation, you <br /> want to know exactly where your money is going and we <br /> pledge to be transparent.</p>
 
                 <div className='lg:hidden md:mt-[72px] sm:scale-y-75 sm:scale-x-90 md:scale-100 sm:ml-3 md:ml-0'>

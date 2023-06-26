@@ -138,7 +138,7 @@ const HighlightsV2 = () => {
                 <div className="self-stretch h-[609px] p-[0px] bg-gray-200 rounded-lg flex-col justify-start items-start flex">
                     <img className="self-stretch h-[343px] object-cover" src="https://res.cloudinary.com/dsnnvjuqz/image/upload/v1687199050/highlights_1_wak8ro.png" />
                     <div className="self-stretch h-[266px] px-6 py-[28px] flex-col justify-start items-start gap-[12px] flex">
-                        <div className="self-stretch text-green-800 text-[22px] font-AnekMalayalam font-bold uppercase leading-relaxed">Gift the World<br/>a Tree</div>
+                        <div className="self-stretch text-green-800 text-[22px] font-AnekMalayalam font-bold uppercase leading-tight">Gift the World<br/>a Tree</div>
                         <div className="self-stretch h-[158px] p-[0px] flex-col justify-start items-start gap-[10px] flex">
                             <div className="self-stretch opacity-90 text-zinc-800 text-[13px] font-medium leading-tight tracking-wide">Spread the message over planting a sapling on the special 4 occasions in one’s life</div>
                             <div className="self-stretch h-[88px] p-[0px] flex-col justify-start items-start flex">
@@ -191,7 +191,7 @@ const HighlightsV2 = () => {
                 </div>
             </div>
         </div>
-                </div>
+        </div>
     </div>
   )
 }

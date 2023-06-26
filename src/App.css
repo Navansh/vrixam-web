@@ -365,8 +365,8 @@ body {
     height: 555px;
   }
   .img-wordings {
-    font-size: 60px;
-    margin: 0 auto;
+    font-size: 50px;
+    margin: 0 auto 0 12px;
   }
   .support-btn {
     display: none;
@@ -513,7 +513,7 @@ body {
     padding: 110px;
   }
   .gallery-full {
-    padding-left: 280px;
+    padding-left: 108px;
   }
 }
 @media screen and (max-width: 560px) {

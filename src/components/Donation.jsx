@@ -177,7 +177,7 @@ const Donation = () => {
       </div>
 
       <div className="sm:flex md:hidden max-w-[368px] mx-auto">
-        <div className="w-[360px] h-[1066.60px] px-6 py-16 flex-col justify-start items-start gap-14 inline-flex">
+        <div className="w-[360px] h-[1066.60px] px-6 py-16 mb-4 flex-col justify-start items-start gap-14 inline-flex">
           <div className="self-stretch h-[938.60px] p-[0px] flex-col justify-start items-start gap-12 flex">
             <div className="self-stretch h-[212.75px] p-[0px] flex-col justify-start items-center gap-12 flex">
               <div className="relative">
@@ -213,7 +213,7 @@ const Donation = () => {
                     />
                 </div>
               </div>
-              <div className="self-stretch h-28 p-[0px] flex-col mr-4 justify-start items-start gap-[22.33px] flex">
+              <div className="self-stretch h-28 p-[0px] flex-col mr-4 justify-start items-start gap-[39.33px] flex">
                 <div className="self-stretch h-[44.92px] p-[0px] flex-col justify-start items-start gap-[9.92px] flex">
                   <div className="self-stretch opacity-80 text-center text-white text-[15px] font-medium uppercase">
                     Merchant Name
@@ -234,7 +234,7 @@ const Donation = () => {
             </div>
             
             <div className=" mt-[3.667rem] flex flex-col gap-[1rem]">
-                <p className=" text-white font-AnekMalayalam text-[18px] leading-[25px] opacity-80 mb-0">
+                <p className=" text-white font-AnekMalayalam text-center text-[18px] leading-[25px] opacity-80 mb-0">
                   We support secure transactions through
                 </p>
                 <div className="flex ml-3 items-center gap-[1rem]">

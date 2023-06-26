@@ -164,7 +164,7 @@ const Navbar = () => {
             className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
             onClick={clickhandler}
           >
-            <p className=' mb-0'>ABOUT US</p>
+            <p className=' mb-0 vision opacity-100'>ABOUT US</p>
           </a>
 
           <a
@@ -180,7 +180,7 @@ const Navbar = () => {
             className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
             onClick={clickhandler}
           >
-            <p className=' mb-0'>GALLERY</p>
+            <p className=' mb-0 vision'>GALLERY</p>
           </a>
 
           <a

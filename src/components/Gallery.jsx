@@ -55,6 +55,7 @@ const Gallery = () => {
         responsive={responsive}
         infinite={true}
         slidesToSlide={2}
+        
       >
         <div className=' why-cards'>
           <div className='card-img'>
