@@ -12,7 +12,7 @@ const carasol_data = [
   {
     url: "../assets/Carasol-2.png",
     title:
-      "Preserving the temples & values of Hinduism, preserving their quality & security",
+      "Preserving the temples & values of Hinduism, their quality & security",
     subtitle:
       " Cultivating a sustainable future by nurturing the Earth, empowering communities, and fostering environmental consciousness.",
     long: { width: "662px" },

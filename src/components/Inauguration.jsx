@@ -28,7 +28,7 @@ const Inauguration = () => {
       carouselState: { currentSlide },
     } = rest;
     return (
-      <div className='carousel-button-group mr-[250px]'>
+      <div className='carousel-button-group mr-[110px]'>
         <button className='carousel-btn prev' onClick={() => previous()}>
           {" "}
           <AiOutlineLeft className=" scale-50" />
@@ -41,7 +41,7 @@ const Inauguration = () => {
   };
   return (
     <div className='gallery-full sm:hidden lg:block'>
-      <div className='gallery-heading mr-[250px]'>
+      <div className='gallery-heading mr-[110px]'>
         <h3 className="font-NoeStandard">Inauguration Ceremony</h3>
       </div>
       <Carousel

@@ -15,7 +15,7 @@ const Progress = () => {
                 </div>
                 <div className=' flex flex-col gap-1 sm:items-center md:items-start'>
                     <p className=' font-AnekMalayalam font-bold uppercase text-[20px] leading-7 text-[#006C2C] mb-0'>How To Help</p>
-                    <p className=' mb-0 text-[15px] leading-6 sm:text-center md:text-left text-[#2D2D2D]'>There are many ways to contribute to us: Volunteer with us, help spread awareness or donate to our projects. <span className=' text-[#006C2C] underline hover:cursor-pointer'>See how</span> </p>
+                    <p className=' mb-0 text-[15px] leading-6 sm:text-center md:text-left text-[#2D2D2D]'>There are many ways to contribute to us: Volunteer with us, help spread awareness or donate to our projects. <a href="#donate"> <span className=' text-[#006C2C] underline hover:cursor-pointer'>See how</span></a> </p>
                 </div>
             </div>
             <div className=' flex flex-col gap-8'>

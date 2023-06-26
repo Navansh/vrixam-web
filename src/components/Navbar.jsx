@@ -148,12 +148,12 @@ const Navbar = () => {
       <div
         className={`${
           toggle ? "block" : "hidden"
-        } lg:hidden fixed z-50 top-[78px] w-full`}
+        } lg:hidden fixed z-50 top-[76px] w-full`}
       >
         <div className='bg-[#1A1A1A] flex flex-col items-center text-white'>
           <a
             href='#progress'
-            className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
+            className='navlinks bordertop w-full h-[83px] flex flex-col items-center justify-center'
             onClick={clickhandler}
           >
             <p className=' mb-0'>WHAT WE DO</p>
@@ -161,15 +161,15 @@ const Navbar = () => {
 
           <a
             href='#aims'
-            className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
+            className='navlinks bordertop w-full h-[83px] flex flex-col items-center justify-center'
             onClick={clickhandler}
           >
-            <p className=' mb-0 vision opacity-100'>ABOUT US</p>
+            <p className=' mb-0'>ABOUT US</p>
           </a>
 
           <a
             href='#highlights'
-            className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
+            className='navlinks bordertop w-full h-[83px] flex flex-col items-center justify-center'
             onClick={clickhandler}
           >
             <p className=' mb-0'>EVENTS</p>
@@ -177,15 +177,15 @@ const Navbar = () => {
 
           <a
             href='#gallery'
-            className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
+            className='navlinks bordertop w-full h-[83px] flex flex-col items-center justify-center'
             onClick={clickhandler}
           >
-            <p className=' mb-0 vision'>GALLERY</p>
+            <p className=' mb-0'>GALLERY</p>
           </a>
 
           <a
             href='#team'
-            className='navlinks border-t-2 w-full h-[83px] flex flex-col items-center justify-center'
+            className='navlinks bordertop w-full h-[83px] flex flex-col items-center justify-center'
             onClick={clickhandler}
           >
             <p className=' mb-0'>OUR TEAM</p>
