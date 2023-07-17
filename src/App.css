@@ -549,3 +549,19 @@ body {
 .awards-slider .react-multi-carousel-item {
   width: 400px !important;
 }
+
+.sub {
+  position: absolute;
+  bottom: -10px;
+  left: 10% !important;
+  min-width: 30px !important;
+  min-height: 30px !important;
+  background-color: #eff5f1 !important;
+  border-radius: 50%;
+  margin: 1rem;
+
+  padding: 0.3rem !important;
+}
+.right-sub {
+  margin-left: 6rem;
+}

@@ -1,9 +1,57 @@
 import React from "react";
 import { FaGreaterThan } from "react-icons/fa";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 const OurMotto = () => {
+  function CustomLeftArrow({ onClick }) {
+    function handleClick() {
+      // do whatever you want on the right button click
+      console.log("Right button clicked, go to next slide");
+      // ... and don't forget to call onClick to slide
+      onClick();
+    }
+
+    return (
+      <AiOutlineRight
+        onClick={handleClick}
+        style={{ transform: "rotate(180deg)", fontSize: "9px !important" }}
+        aria-label='Go to next slide'
+        className='sub left-sub react-multiple-carousel__arrow react-multiple-carousel__arrow--left'
+      />
+    );
+  }
+
+  function CustomRightArrow({ onClick }) {
+    function handleClick() {
+      // do whatever you want on the right button click
+      console.log("Right button clicked, go to next slide");
+      // ... and don't forget to call onClick to slide
+      onClick();
+    }
+
+    return (
+      <AiOutlineRight
+        onClick={handleClick}
+        aria-label='Go to next slide'
+        className='sub right-sub react-multiple-carousel__arrow react-multiple-carousel__arrow--right'
+      />
+    );
+  }
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 768 },
+      items: 2,
+    },
+
+    tablet: {
+      breakpoint: { max: 768, min: 0 },
+      items: 1,
+    },
+  };
   const moveLeft = () => {
     document.querySelector(".videos ").classList.remove("shift");
   };
@@ -23,23 +71,63 @@ const OurMotto = () => {
             </h3>
           </div>
         </div>
-        <div className='arrows'>
-          <div className='left' onClick={moveLeft}>
-            <AiOutlineRight className='sub-arrow' />
-          </div>
-          <div className='right' onClick={moveRight}>
-            <AiOutlineRight className='sub-arrow' />
-          </div>
-        </div>
       </div>
-      <div className='videos'>
-        <div className='video video-1'>
-          <img src='../assets/video-1.png' alt='' />
+
+      <Carousel
+        swipeable={false}
+        draggable={false}
+        autoPlay={true}
+        responsive={responsive}
+        infinite={true}
+        slidesToSlide={1}
+        customLeftArrow={<CustomLeftArrow />}
+        customRightArrow={<CustomRightArrow />}
+        renderButtonGroupOutside={true}
+      >
+        <div className='why-cards'>
+          <div className='card-img'>
+            <img src='../assets/Gallery-3.png' alt='' />
+          </div>
+          {/* <div className='card-container'>
+          <p>
+            
+          </p>
+        </div> */}
         </div>
-        <div className='video video-2'>
-          <img src='../assets/video-2.png' alt='' />
+
+        <div className=' why-cards'>
+          <div className='card-img'>
+            <img src='../assets/Gallery-6.png' alt='' />
+          </div>
+          {/* <div className='card-container'>
+          <p>
+            
+          </p>
+        </div> */}
         </div>
-      </div>
+
+        <div className='why-cards'>
+          <div className='card-img'>
+            <img src='../assets/Gallery-7.png' alt='' />
+          </div>
+          {/* <div className='card-container'>
+          <p>
+            
+          </p>
+        </div> */}
+        </div>
+
+        <div className='why-cards'>
+          <div className='card-img'>
+            <img src='../assets/Gallery-8.png' alt='' />
+          </div>
+          {/* <div className='card-container'>
+          <p>
+            
+          </p>
+        </div> */}
+        </div>
+      </Carousel>
     </div>
   );
 };
