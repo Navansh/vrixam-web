@@ -87,7 +87,7 @@ nav {
     rgba(255, 255, 255, 0) 100%
   );
   padding-left: 108px;
-  padding-top: 7rem;
+  padding-top: 5rem;
   position: absolute;
   z-index: 3;
 }
@@ -114,7 +114,7 @@ nav {
   transform: translate(-50%, -50%) rotate(180deg);
 }
 .videos {
-  padding-top: 6rem;
+  padding-top: 4rem;
   display: flex;
   transform: translateX(510px);
   transition: all 1s ease-in-out;
