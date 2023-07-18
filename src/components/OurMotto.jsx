@@ -86,7 +86,15 @@ const OurMotto = () => {
       >
         <div className='why-cards'>
           <div className='card-img'>
-            <img src='../assets/Gallery-3.png' alt='' />
+            <iframe
+              width='100%'
+              height='100%'
+              src='https://www.youtube.com/embed/jEtgjgzLWHk'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              allowfullscreen
+            ></iframe>
           </div>
           {/* <div className='card-container'>
           <p>
@@ -97,7 +105,15 @@ const OurMotto = () => {
 
         <div className=' why-cards'>
           <div className='card-img'>
-            <img src='../assets/Gallery-6.png' alt='' />
+            <iframe
+              width='100%'
+              height='100%'
+              src='https://www.youtube.com/embed/UNUOUDECykI'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              allowfullscreen
+            ></iframe>
           </div>
           {/* <div className='card-container'>
           <p>
@@ -108,7 +124,15 @@ const OurMotto = () => {
 
         <div className='why-cards'>
           <div className='card-img'>
-            <img src='../assets/Gallery-7.png' alt='' />
+            <iframe
+              width='100%'
+              height='100%'
+              src='https://www.youtube.com/embed/JRfUMTpTyHU'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              allowfullscreen
+            ></iframe>
           </div>
           {/* <div className='card-container'>
           <p>
@@ -119,7 +143,15 @@ const OurMotto = () => {
 
         <div className='why-cards'>
           <div className='card-img'>
-            <img src='../assets/Gallery-8.png' alt='' />
+            <iframe
+              width='100%'
+              height='100%'
+              src='https://www.youtube.com/embed/ZkRGN_dXIU8'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              allowfullscreen
+            ></iframe>
           </div>
           {/* <div className='card-container'>
           <p>
