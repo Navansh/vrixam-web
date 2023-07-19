@@ -8,7 +8,7 @@ const Progress = () => {
             <p className=' font-PlusJakartaSans sm:text-center md:text-left text-[15px] mb-0 md:ml-[60px] lg:ml-0 leading-[26px] text-[#2D2D2D] tracking-normal'>Our restoration projects aim to revitalize degraded lands, promote afforestation, <span className=' md:inline-block md:ml-[40px] lg:hidden'><br /></span> reforestation, and rehabilitate ecosystems affected by human activities.</p>
         </div>
         <div className=' flex sm:flex-col md:flex-row gap-9 max-w-[691px] md:mx-auto md:justify-center lg:mr-[6.75rem]'>
-            <div className=' flex flex-col  gap-8'>
+            <div className=' flex flex-col gap-8'>
                 <div className=' flex flex-col sm:items-center md:items-start gap-1'>
                     <p className=' font-AnekMalayalam uppercase font-bold text-[20px] leading-7 text-[#006C2C] mb-0'>Who We Are</p>
                     <p className=' mb-0 text-[15px] leading-6 sm:text-center md:text-left text-[#2D2D2D]'>A dedicated environmental non-profit organization working tirelessly to protect & preserve our planet, committed to making a positive impact on the environment</p>

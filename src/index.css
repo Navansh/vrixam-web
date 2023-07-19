@@ -100,7 +100,7 @@
         padding: 100px 48px 64px;
     }
 }
-@media screen and (min-width: 368px) {
+@media screen and (min-width: 300px) {
     .cssprogress {
         padding: 100px 24px 64px;
     }
