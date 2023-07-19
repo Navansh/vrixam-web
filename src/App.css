@@ -580,3 +580,8 @@ body {
     left: 10% !important;
   }
 }
+@media screen and (max-width: 560px) {
+  .sub {
+    display: none;
+  }
+}
