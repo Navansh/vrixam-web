@@ -507,6 +507,17 @@ body {
   .news-img img {
     padding: 0 2rem;
   }
+  .sub {
+    left: 40% !important;
+    transform: translateX(50%);
+    bottom: 0 !important;
+  }
+  .left-sub {
+    margin-right: 5rem !important;
+  }
+  iframe {
+    height: 90%;
+  }
 }
 @media screen and (min-width: 1440px) {
   .captions-all {
@@ -553,7 +564,6 @@ body {
 .sub {
   position: absolute;
   bottom: -10px;
-  left: 10% !important;
   min-width: 30px !important;
   min-height: 30px !important;
   background-color: #eff5f1 !important;
@@ -564,4 +574,9 @@ body {
 }
 .right-sub {
   margin-left: 6rem;
+}
+@media screen and (min-width: 800px) {
+  .sub {
+    left: 10% !important;
+  }
 }
